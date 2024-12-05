@@ -1,0 +1,47 @@
+h2 {
+    color: purple;
+}
+
+#header1 {
+    color: green;
+}
+
+p {
+    color: darkslategray;
+}
+
+table {
+    margin: 8px 0 8px 0;
+}
+
+.enlace {
+    font-style: oblique;
+    padding-left: 4px;
+}
+
+#frmRegistration input[type='password'], #frmRegistration input[type='text'] {
+    border: 1px solid rgb(250, 211, 196);
+    width: 100%;
+}
+
+#frmRegistration input[type='submit'] {
+    background-color: lightsteelblue;
+    border-radius: 6px;
+    width: 6em;
+    height: 2em;
+    margin-top: 6px;
+    float: right;
+    cursor: pointer;
+}
+
+#blog > h1 {
+    color: bisque;
+}
+
+#blog div h1 {
+    font-style: oblique;
+}
+
+a:hover {
+    color: orange;
+}
