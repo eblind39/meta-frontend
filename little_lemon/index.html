@@ -2,6 +2,23 @@
 <html>
     <head>
         <title>Little Lemon</title>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            form {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border: 1px solid lightcyan;
+                border-radius: 10px;
+                width: 250px;
+            }
+        </style>
+        <script type="text/javascript">
+            alert('Hello');
+        </script>
     </head>
     <body>
         <h1>Our Menu</h1>
@@ -13,5 +30,49 @@
         <img src="images/salad.jpg" width="240" height="135" alt="A pasta salad"><br />
         <a href="location.html">Our location</a><br />
         <a href="module01_lab01.html">Module 01 - Lab 01</a>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dish</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Falafel</td>
+                    <td>$10.00</td>
+                </tr>
+                <tr>
+                    <td>Salad</td>
+                    <td>$12.00</td>
+                </tr>
+            </tbody>
+        </table>
+        <form action="/registration" method="post">
+            <label for="username">Username:</label><br />
+            <input type="text" name="username" id="username"><br />
+
+            <label for="password">Password:</label><br />
+            <input type="password" name="password" id="password"><br />
+
+            <input type="submit" value="Submit"><br />
+
+            <input type="checkbox" name="remember" id="remember">
+            <label for="remember">Remember</label>
+
+            <input type="number" name="age" id="age">
+            <input type="email" name="email" id="email">
+            <input type="file" name="photoid" id="photoid">
+            <textarea name="address" id="address" cols="20" rows="5"></textarea>
+            <select name="profession" id="profession">
+                <option value="">--Select---</option>
+                <option value="98">Software developer</option>
+                <option value="99">Software architect</option>
+            </select><br />
+            <input type="radio" name="onlyone" id="onlyone">
+            <label for="onlyone">Only one</label><br />
+            <input type="radio" name="morethanone" id="morethanone">
+            <label for="morethanone">More than sone</label>
+        </form>
     </body>
 </html>
