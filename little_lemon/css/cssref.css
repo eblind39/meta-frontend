@@ -24,3 +24,9 @@
     border: 4px solid green;
     margin: auto;
 }
+
+.parentimg img {
+    width: 150px;
+    height: 150px;
+    float: right;
+}
