@@ -9,16 +9,49 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col">
+        <!-- col-12 is for mobile first design -->
+            <div class="col-12 col-lg-8">
                 <h1>Our Menu</h1>
-                <h2>Falafel</h2>
-                <p>Chickpea, herbs and spices.</p>
-                <img src="../little_lemon/images/falafel.jpg" class="img-fluid" alt="Falafel">
-                <h2>Pasta Salad</h2>
-                <p>Lettuce, vegetables and mozzarella.</p>
-                <img src="../little_lemon/images/salad.jpg" class="img-fluid" alt="Pasta Salad">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="card">
+                            <img src="../little_lemon/images/falafel.jpg" class="card-img-top" alt="Falafel">
+                            <div class="card-body">
+                                <h2 class="card-title">Falafel <span class="badge bg-primary">New</span></h2>
+                                <p class="card-text">Chickpea, herbs and spices.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="card">
+                            <img src="../little_lemon/images/salad.jpg" class="card-img-top" alt="Pasta Salad">
+                            <div class="card-body">
+                                <h2 class="card-title">Pasta Salad</h2>
+                                <p class="card-text">Lettuce, vegetables and mozzarella.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="card">
+                            <img src="../little_lemon/images/chicken-burger.jpg" class="card-img-top" alt="Chicken Burger">
+                            <div class="card-body">
+                                <h2 class="card-title">Chicken Burger</h2>
+                                <p class="card-text">Chicken, lettuce, mayo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="card">
+                            <img src="../little_lemon/images/Breakfast-Burger.jpg" class="card-img-top" alt="Breakfast Burger">
+                            <div class="card-body">
+                                <h2 class="card-title">Breakfast Burger</h2>
+                                <p class="card-text">Beef, Egg, Bacon, Tomato, Mayo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-lg-4">
                 <h2>Prices</h2>
                 <table class="table">
                     <tr>
@@ -29,7 +62,18 @@
                         <td>Pasta Salad</td>
                         <td>$10.00</td>
                     </tr>
+                    <tr>
+                        <td>Chicken Burger</td>
+                        <td>$14.00</td>
+                    </tr>
+                    <tr>
+                        <td>Breakfast Burger</td>
+                        <td>$8.00</td>
+                    </tr>
                 </table>
+                <div class="alert alert-info" role="alert">
+                    Try our new Falafel
+                </div>
             </div>
         </div>
     </div>
