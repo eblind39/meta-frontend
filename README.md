@@ -75,5 +75,20 @@ Here is a list of resources that may be helpful as you continue your learning jo
 
 ## React Intro
 
+JavaScript libraries commonly used with React
 
-https://reactjs.org/docs/jsx-in-depth.html
+|Library|Site|Feature|
+|---|---|---|
+|Lodash|https://lodash.com/|Logic commonly used to write across applications|
+|Luxon|https://moment.github.io/luxon/#/|Manipulate Date/Time and display them|
+|Moment.js|https://momentjs.com/|Parse, validate, manipulate, and display dates and times
+|Redux|https://redux.js.org/|State management|
+|Axios|https://axios-http.com/|Communicating with APIs over HTTP|
+|Jest|https://jestjs.io/|Write automated tests|
+|JSX Ref|https://reactjs.org/docs/jsx-in-depth.html|Build React components|
+
+|Docs|Site|
+|---|---|
+|Choosing between Traditional Web Apps and Single Page Apps (Microsoft)|https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/choose-between-traditional-web-and-single-page-apps|
+|React Source Code (Github)|https://github.com/facebook/react|
+|Introduction to React.js (2013)|https://youtu.be/XxVg_s8xAms|
