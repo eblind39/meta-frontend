@@ -109,3 +109,8 @@ These resources provide some more in-depth information on the topics covered in 
 |React Official Website|https://reactjs.org/|
 |StackOverflow Developer Survey 2021 Most Popular Technologies|https://insights.stackoverflow.com/survey/2021#technology-most-popular-technologies|
 |Emojis|http://unicode.org/emoji/charts/full-emoji-list.html#1f600|
+|Comparison Operators|https://www.javascripttutorial.net/javascript-comparison-operators/|
+|Truthy|https://developer.mozilla.org/en-US/docs/Glossary/Truthy|
+|Falsy|https://developer.mozilla.org/en-US/docs/Glossary/Falsy|
+|Conditional statements|https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals|
+|Ternary operator|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator|
