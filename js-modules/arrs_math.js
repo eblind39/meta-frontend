@@ -45,3 +45,61 @@ let randomFiveToNine = (5 + (9 - 5) * zerotoone);
 console.log('randomFiveToNine: ', randomFiveToNine);
 
 console.log(Math.ceil(2.49));
+
+console.log('name:'.split('').pop());
+
+let greet = 'Hello, ';
+let place = 'World';
+console.log(place.charAt(0), place[0]);
+console.log("Wo".concat('rl'.concat('d')));
+console.log('ho-ho-ho'.indexOf('h'));
+console.log('ho-ho-ho'.indexOf('o'));
+console.log('ho-ho-ho'.indexOf('-'));
+console.log('ho-ho-ho'.lastIndexOf('-'));
+console.log('ho-ho-ho'.lastIndexOf('o'));
+console.log('ho-ho-ho'.lastIndexOf('h'));
+console.log(...place.split(''));
+console.log('ho-ho-ho'.split('-'));
+
+// array literal syntax: []
+let clothes = [];
+clothes.push('shoes');
+clothes.push('tie');
+clothes.push('t-shirt');
+clothes.push('pants');
+clothes.push('bracelet');
+console.log(clothes.pop());
+clothes.push('socks');
+console.log(clothes[2]);
+
+// object literal syntax: {}
+let favCar = {};
+favCar.color = 'lightgray';
+favCar.covertible = true;
+favCar.mileage = 98765;
+console.log(favCar);
+
+Object.prototype.turnOff = function() {
+    console.log('engine stops');
+}
+
+favCar.turnKey = function() {
+    console.log('engine running', this);
+}
+
+delete favCar.mileage;
+console.log('mileage deleted', favCar);
+
+favCar.turnKey();
+favCar.turnOff();
+
+console.log(typeof []);
+console.log(typeof 'what is this?');
+console.log(typeof 3.14);
+console.log(typeof 10);
+console.log(typeof true);
+console.log(typeof false);
+console.log(typeof (1 < 2));
+console.log(typeof [1, 2, 3]);
+console.log(typeof {myProp: 'myVal'});
+console.log(typeof function() { console.log('myFn') });

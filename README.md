@@ -114,3 +114,7 @@ These resources provide some more in-depth information on the topics covered in 
 |Falsy|https://developer.mozilla.org/en-US/docs/Glossary/Falsy|
 |Conditional statements|https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals|
 |Ternary operator|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator|
+|JavaScript Functions|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions|
+|JavaScript Object Basics|https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics|
+|typeof operator in JavaScript|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof|
+|Arrays are "list-like objects"|https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays|
