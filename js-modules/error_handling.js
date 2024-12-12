@@ -100,5 +100,19 @@ if(x === null) {
 }
 
 
-throw new Error();
-console.log("Hello");
+// throw new Error();
+// console.log("Hello");
+
+
+try {
+    throw new Error();
+    console.log('Hello');
+} catch(err) {
+    console.log('Goodbye');
+}
+
+try {
+    Number(5).toPrecision(300)
+} catch(e) {
+    console.log("There was an error")
+}

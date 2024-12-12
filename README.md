@@ -118,3 +118,19 @@ These resources provide some more in-depth information on the topics covered in 
 |JavaScript Object Basics|https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics|
 |typeof operator in JavaScript|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof|
 |Arrays are "list-like objects"|https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays|
+
+## Error Handling - Additional resources
+
+Here is a list of resources that may be helpful as you continue your learning journey.
+These resources provide some more in-depth information on the topics covered in this module.
+
+|Resource|Site|
+|---|---|
+|MDN functions|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function|
+|MDN try...catch|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch|
+|Iteration protocols|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch|
+|The Math object on MDN|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math|
+|The String object on MDN|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String|
+|MDN JavaScript error reference|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors|
+|The null value on MDN|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null|
+|The undefined property on MDN|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined|
