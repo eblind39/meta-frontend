@@ -134,3 +134,17 @@ These resources provide some more in-depth information on the topics covered in 
 |MDN JavaScript error reference|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors|
 |The null value on MDN|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null|
 |The undefined property on MDN|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined|
+
+### First-class functions
+They are “first-class citizens”. What does that mean?
+* pass to other functions
+* save in a variable
+* return from other functions
+
+### Higher-order functions
+* It accepts other functions as arguments
+* It returns functions when invoked
+
+### Pure functions and side-effects
+* A pure function returns the exact same result as long as it's given the same values
+* It should not have side-effects. A side-effect is any instance where a function makes a change outside of itself
