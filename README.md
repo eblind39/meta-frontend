@@ -148,3 +148,16 @@ They are “first-class citizens”. What does that mean?
 ### Pure functions and side-effects
 * A pure function returns the exact same result as long as it's given the same values
 * It should not have side-effects. A side-effect is any instance where a function makes a change outside of itself
+
+## Functions - Additional resources
+
+Here is a list of resources that may be helpful as you continue your learning journey.
+These resources provide some more in-depth information on the topics covered in this module.
+
+|Resource|Site|
+|---|---|
+|MDN Functions Guide|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions|
+|MDN Glossary: Recursion|https://developer.mozilla.org/en-US/docs/Glossary/Recursion|
+|MDN Glossary: Scope|https://developer.mozilla.org/en-US/docs/Glossary/Scope|
+|Functional Programming in JavaScript|https://www.toptal.com/javascript/functional-programming-javascript|
+|MDN: First-class functions|https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function|
