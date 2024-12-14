@@ -1,3 +1,5 @@
+console.log('json:')
+
 var purchase1 = {
     shoes: 100,
     stateTax: 1.2,
@@ -24,12 +26,21 @@ var shoes = 100;
 var stateTax = 1.2;
 const totalPrice = (shoes, tax) => shoes * tax;
 var toPay = totalPrice(shoes, stateTax);
-console.log(toPay.toString(10));
+console.log('Purchase-Fns: ', toPay.toString(10));
 
 // using prototype
-function FnPurchase() {
-
+function FnPurchase(itemPrice, tax) {
+    this.itemPrice = itemPrice;
+    this.tax = tax;
+    if (typeof FnPurchase.__initialized === 'undefined') {
+        FnPurchase.prototype.totalPrice = function() { 
+            return this.itemPrice * this.tax;
+        }
+        FnPurchase.__initialized = true;
+    }
 }
+let myFnPurchase = new FnPurchase(100, 1.2);
+console.log('FnPurchase-proptotype: ', myFnPurchase.totalPrice().toString(10));
 
 // classes
 class Car {
@@ -63,4 +74,4 @@ class Purchase {
 }
 
 let myPurchase = new Purchase(100, 1.2);
-console.log(myPurchase.totalPrice());
+console.log('Purchase-class: ', myPurchase.totalPrice());
