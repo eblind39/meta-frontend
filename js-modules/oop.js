@@ -62,6 +62,11 @@ class Car {
 let myCar = new Car('blue', 120);
 myCar.turboOn();
 
+let myCarObj = Object.create(Car);
+myCarObj.color = 'lightgray';
+myCarObj.speed = 70;
+console.log('Object.create: ', myCarObj);
+
 class Purchase {
     constructor(itemPrice, tax) {
         this.itemPrice = itemPrice;
@@ -75,3 +80,22 @@ class Purchase {
 
 let myPurchase = new Purchase(100, 1.2);
 console.log('Purchase-class: ', myPurchase.totalPrice());
+
+// inheritance
+class Animal {
+    constructor(specie) {
+        this.specie = specie;
+    }
+}
+
+class Bird extends Animal {
+    constructor(sound) {
+        this.sound = sound;
+    }
+}
+
+class Eagle extends Bird {
+    constructor(type) {
+        this.type = type;
+    }
+}
