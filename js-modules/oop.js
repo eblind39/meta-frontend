@@ -154,3 +154,60 @@ let mickey = new Mouse();
 let bugs = new Rabbit();
 mickey.useTheet();
 bugs.useTheet();
+
+console.log((new Date()).toString());
+
+// constructors
+function IceCream(flavor) {
+    this.flavor = flavor;
+    this.meltIt = function() {
+        console.log(`The ${this.flavor} icecream has melted`);
+    }
+}
+
+let kiwiIcecream = new IceCream('kiwi');
+let appleIcecream = new IceCream('apple');
+console.log(kiwiIcecream);
+kiwiIcecream.meltIt();
+
+console.log(appleIcecream);
+appleIcecream.meltIt();
+
+// pre-built
+let apple = new String('apple');
+let pear = 'pear';
+console.log(apple, pear);
+
+let myRegExpD = new RegExp(/d/);
+console.log('abcd'.match(myRegExpD));
+console.log('abcd'.match(/a/));
+
+let myErr = new Error('My error msg');
+console.log(myErr.message);
+
+let myMap = new Map();
+myMap.set('Key1', 'Val1');
+myMap.set('Key2', 'Val2');
+myMap.set('Key3', 'Val3');
+myMap.forEach((key, value) => console.log(key, value));
+
+// let myPromise = new Promise();
+
+let mySet = new Set();
+mySet.add('Value1');
+mySet.add('Value2');
+mySet.add('Value3');
+mySet.forEach(value => console.log(value));
+
+let myWeakSet = new WeakSet();
+let myStrObj = new String('WSet1');
+myWeakSet.add(myStrObj);
+myWeakSet.add(new String('WSet2'));
+myWeakSet.add(new String('WSet3'));
+console.log('myWeakSet.has(myStrObj)', myWeakSet.has(myStrObj));
+
+let myWeakMap = new WeakMap();
+myWeakMap.set(myStrObj, 'Cad1');
+console.log('myWeakMap.has(myStrObj)', myWeakMap.has(myStrObj));
+myWeakMap.delete(myStrObj);
+console.log('myWeakMap.has(myStrObj)', myWeakMap.has(myStrObj));
