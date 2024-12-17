@@ -99,3 +99,58 @@ class Eagle extends Bird {
         this.type = type;
     }
 }
+
+// polymorphism
+const bicycle = {
+    bell: function() {
+        return 'Ring, ring! watch out, please!'
+    }
+}
+
+const door = {
+    bell: function() {
+        return 'Ring, ring! come here, please!'
+    }
+}
+
+console.log(bicycle.bell());
+console.log(door.bell());
+
+// truly polymorphism
+function ringTheBell(thing) {
+    console.log(thing.bell());
+}
+
+ringTheBell(bicycle);
+ringTheBell(door);
+
+console.log('abc'.concat('def'));
+console.log('abc' + 'def');
+console.log(['abc'].concat(['def']));
+console.log(['abc'] + ['def']);
+
+// polymorphism with classes
+class Rodent {
+    useTheet() {
+        console.log('Biting!');
+    }
+}
+
+class Mouse extends Rodent {
+    useTheet() {
+        super.useTheet();
+        console.log('Fast moving!');
+    }
+}
+
+class Rabbit extends Rodent {
+    useTheet() {
+        super.useTheet();
+        console.log('Slow moving');
+    }
+}
+
+let mickey = new Mouse();
+let bugs = new Rabbit();
+mickey.useTheet();
+bugs.useTheet();
