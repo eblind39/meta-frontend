@@ -49,12 +49,12 @@ const clothingItem = {
 
 console.log('>>> Iterating over object by using .entries:');
 for (let [key, value] of Object.entries(clothingItem)) {
-    console.log(key + ':', value);
+    console.log('🌀', key + ':', value);
 }
 
 console.log('>>> Iterating over object by using .keys:');
 for (let key of Object.keys(clothingItem)) {
-    console.log(key, clothingItem[key]);
+    console.log('😊', key, clothingItem[key]);
 }
 
 const testBracketsDynamicAccess = () => {
@@ -67,3 +67,14 @@ const testBracketsDynamicAccess = () => {
 }
 
 testBracketsDynamicAccess();
+
+// template literals
+let str1 = 'Hello';
+let str2 = 'World';
+console.log(`${str1} ${str2}!`);
+console.log(`Multi,
+    Line
+With
+    Backticks!
+    `);
+console.log(`${1 + 1 + 1 + 1 + 1} stars! 🌟`);
