@@ -171,3 +171,8 @@ These resources provide some more in-depth information on the topics covered in 
 |Object-oriented programming|https://css-tricks.com/the-flavors-of-object-oriented-programming-in-javascript/|
 |Regular Expressions in JavaScript|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions|
 |RegExp object in JavaScript|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp|
+|||
+|_OOP_|_Principles_|
+|*Encapsulation*|Making a code implementation "hidden" from other users|
+|*Abstraction*|Code what matters|
+|*Polymorphism*|Something that can take on many shapes|
