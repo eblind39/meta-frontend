@@ -54,3 +54,48 @@ console.log(uniqueFruits);
 // Linked lists (singly-linked and doubly-linked)
 // Trees
 // Graphs
+
+console.log('>>> spread');
+let myArr = [1, 2, 3, 4, 5];
+console.log([...myArr]);
+
+console.log('>>> rest');
+const addTaxToPrices = (taxRate, ...itemsBought) => itemsBought.map(item => item * taxRate);
+console.log(addTaxToPrices(1.2, 100, 200, 300, 46, 35, 89, 79));
+
+console.log('>>> join arrays using rest');
+const fruits1 = ['apple', 'pear', 'plum'];
+const berries = ['strawberry', 'blueberry', 'blackberry'];
+const fruitsAndBerries = [...fruits1, ...berries];
+console.log(fruitsAndBerries);
+
+console.log('>>> join objects');
+const flying = { wings: 2};
+const car = { wheels: 4 };
+const flyingCar = {...car, ...flying};
+console.log(flyingCar);
+
+console.log('>>> new items to array');
+let veggies = ['carrot', 'cucumber', 'tomato'];
+veggies = [...veggies, 'lettuce', 'onion', 'pepper'];
+console.log(veggies);
+
+console.log('>>> string to array');
+const greeting = 'Hello';
+const arrayOfChars = [...greeting];
+console.log(arrayOfChars);
+
+console.log('>>> copy an object into a completely separate object');
+const car1 = {
+    speed: 200,
+    color: 'yellow'
+}
+const car2 = {...car1}
+car1.speed = 201
+console.log(car1.speed, car2.speed)
+
+console.log('>>> copy an array into a completely separate array');
+const fruits21 = ['apples', 'pears'];
+const fruits22 = [...fruits1];
+fruits1.pop();
+console.log(fruits21, "not", fruits22);
