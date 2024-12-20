@@ -130,6 +130,12 @@ These resources provide some more in-depth information on the topics covered in 
 |MDN: Event|https://developer.mozilla.org/en-US/docs/Web/API/Event|
 |MDN: EventTarget.addEventListener|https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener|
 |MDN: Working with JSON|https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON|
+|MDN: Server-side website programming|https://developer.mozilla.org/en-US/docs/Learn/Server-side|
+|Nodejs.org docs website|https://nodejs.org/api/documentation.html|
+|Jest testing framework website|https://jestjs.io/|
+|Cypress testing framework|https://www.cypress.io/|
+|npm website|https://www.npmjs.com/|
+|Unit testing in JavaScript|https://www.browserstack.com/guide/unit-testing-in-javascript|
 
 ## Error Handling - Additional resources
 
@@ -188,3 +194,8 @@ These resources provide some more in-depth information on the topics covered in 
 |*Encapsulation*|Making a code implementation "hidden" from other users|
 |*Abstraction*|Code what matters|
 |*Polymorphism*|Something that can take on many shapes|
+
+```sh
+bun test
+bun test --coverage
+```
