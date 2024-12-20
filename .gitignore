@@ -1,3 +1,7 @@
+js_test_intro/node_modules/
+js_test_intro/package-lock.json
+js_test_intro/bun.lockb
+
 # Logs
 logs
 *.log
