@@ -118,6 +118,11 @@ These resources provide some more in-depth information on the topics covered in 
 |JavaScript Object Basics|https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics|
 |typeof operator in JavaScript|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof|
 |Arrays are "list-like objects"|https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays|
+|Template literals|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals|
+|Arrow functions|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions|
+|Spread syntax|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax|
+|Rest parameters|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters|
+|JavaScript data structures|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures|
 
 ## Error Handling - Additional resources
 

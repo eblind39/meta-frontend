@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ES6 modules script</title>
+        <script type="text/javascript">
+            document.onreadystatechange = function () {
+                if (document.readyState == "interactive") {
+                    const h4 = document.createElement('h4');
+                    h4.innerText = 'Ernesto <- click me!';
+                    document.body.appendChild(h4);
+                    h4.setAttribute('id', 'myname');
+                    h4.addEventListener('click', function() { alert('h2 clicked'); });
+
+                    const h5 = document.createElement('h5');
+                    const text = document.createTextNode('Type into the input text to make this text change');
+                    h5.appendChild(text);
+                    const input = document.createElement('input');
+                    input.setAttribute('type', 'text');
+                    input.setAttribute('id', 'mytext');
+                    document.body.appendChild(h5);
+                    document.body.appendChild(input);
+
+                    document.querySelector('#btnNameInput').addEventListener('click', function() {
+                        let myname = prompt('What is your name?');
+                        if (typeof myname === 'string' && myname.length > 0) {
+                            let h1 = document.createElement('h1');
+                            h1.innerText = myname;
+                            document.body.appendChild(h1);
+                        }
+                        document.querySelector('#btnNameInput').style.display = 'none';
+                    });
+
+                    document.getElementById('mytext').addEventListener('keypress', function() {
+                        h5.innerText = input.value;
+                    });
+
+                    const h1 = document.querySelector('h1');
+                    let arr = ['Example Domain', 'First Click', 'Second Click', 'Third Click'];
+                    function handleClicks() {
+                        switch(h1.innerText) {
+                            case arr[0]:
+                                h1.innerText = arr[1];
+                                break;
+                            case arr[1]:
+                                h1.innerText = arr[2];
+                                break;
+                            case arr[2]:
+                                h1.innerText = arr[3];
+                                break;
+                            default:
+                                h1.innerText = arr[0];
+                                break;
+                        }
+                    }
+
+                    h1.addEventListener('click', handleClicks);
+                }
+            };
+        </script>
+        <style type="text/css">
+            h1, h4 {
+                color: blue;
+                cursor: pointer;
+                font-size: 24px;
+            }
+        </style>
+    </head>
+    <body>
+        <h4>JS scripts as modules</h4>
+        <script type="module">
+            import { informalGreeting } from './greeting.js';
+            informalGreeting('Jim');
+        </script>
+        <script type="module">
+            import { informalGreeting, formalGreeting } from './greeting.js';
+            import greeting from './greeting.js';
+            formalGreeting('Mark');
+            greeting();
+        </script>
+        <button id="btnNameInput">Ask for name</button>
+        <h1>Example Domain</h1>
+    </body>
+</html>

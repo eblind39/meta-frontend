@@ -94,8 +94,29 @@ const car2 = {...car1}
 car1.speed = 201
 console.log(car1.speed, car2.speed)
 
+for (let [key, value] of Object.entries(car1)) {
+    console.log(`${key}: ${value}`);
+}
+
 console.log('>>> copy an array into a completely separate array');
 const fruits21 = ['apples', 'pears'];
 const fruits22 = [...fruits1];
 fruits1.pop();
 console.log(fruits21, "not", fruits22);
+
+const meal = ["soup", "steak", "ice cream"]
+let [starter, hard] = meal;
+console.log(starter, hard);
+
+
+let food = "Chocolate";
+console.log(`My favourite food is ${food}`);
+
+
+let obj = {
+    key: 1,
+    value: 4
+};
+let output = { ...obj };
+output.value -= obj.key;
+console.log(output.value);
