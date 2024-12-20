@@ -57,6 +57,12 @@
                     }
 
                     h1.addEventListener('click', handleClicks);
+
+                    // JSON
+                    const jsonStr = '{"greeting": "hello"}';
+                    const aPlainObj = JSON.parse(jsonStr);
+                    aPlainObj.greeting = 'Hi!';
+                    console.log(JSON.stringify(aPlainObj));
                 }
             };
         </script>
