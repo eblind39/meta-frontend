@@ -62,3 +62,8 @@ let counter = 0;
 counter += 5;
 counter += 3;
 console.log(counter);
+
+
+var result;
+console.log(result);
+result = 7;
