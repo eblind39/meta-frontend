@@ -40,7 +40,7 @@ Here is a list of resources that may be helpful as you continue your learning jo
 |HTML and CSS: Design and build websites by Jon Duckett|https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/|
 |CSS Definitive Guide  by Eric Meyer|https://www.amazon.com/CSS-Definitive-Guide-Visual-Presentation/dp/1449393195/|
 |Bootstrap 5 Foundations by Daniel Foreman|https://www.amazon.com/Bootstrap-Foundations-Mr-Daniel-Foreman/dp/B0948GRS8W/|
-|Responsive Web Design with HTML5 and CSS  by Ben Frain|https://www.amazon.com/Responsive-Web-Design-HTML5-CSS/dp/1839211563/|
+|Responsive Web Design with HTML5 and CSS  by Ben Frain|https://www.amazon.com/Responsive-Web-Design-HTML5-CSS-dp-180324271X/dp/180324271X|
 
 ### CSS Selectors
 |Selector|Example|
