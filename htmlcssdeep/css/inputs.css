@@ -1,0 +1,12 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button, img {
+    border: none;
+    border: 1px solid #fff;
+}
+
+section {
+    margin: 10px 10px;
+}

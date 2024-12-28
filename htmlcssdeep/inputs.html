@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Input types</title>
+        <link rel="stylesheet" href="css/inputs.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <input type="button" value="Click Me!" onclick="alert('Hello World!')">
+                <!-- button tag, being able to place content inside the tag -->
+                <button onclick="alert('Are you sure you want to continue?')">
+                    <img src="https://img.freepik.com/premium-photo/button-continue-button-3d-illustration_115990-3351.jpg" 
+                        alt="Button image"
+                        width="150"
+                        height="43">
+                </button>
+            </section>
+            <section>
+                <div>
+                    <input type="checkbox" name="dog" id="husky" value="husky">
+                    <label for="husky">Husky</label>
+                    <input type="checkbox" name="dog" id="chihuahua" value="chihuahua">
+                    <label for="chihuahua">Chihuahua</label>
+                    <input type="checkbox" name="dog" id="schnauzer" value="schnauzer">
+                    <label for="schnauzer">Schnauzer</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="cat" id="romano" value="romano">
+                    <label for="romano">Romano</label>
+                    <input type="checkbox" name="cat" id="naranjoso" value="naranjoso">
+                    <label for="naranjoso">Naranjoso</label>
+                    <input type="checkbox" name="cat" id="misifus" value="misifus">
+                    <label for="misifus">Misifus</label>
+                </div>
+            </section>
+            <section>
+                <input type="radio" name="theme" id="dark" value="dark">
+                <label for="dark">Dark</label>
+                <input type="radio" name="theme" id="light" value="light">
+                <label for="light">Light</label>
+            </section>
+            <section>
+                <form action="myserver.com/postaction" method="POST">
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+            <section>
+                <label for="fname">First name:</label>
+                <input type="text" name="fname" id="fname">
+            </section>
+            <section>
+                <label for="pwd">Password:</label>
+                <input type="password" name="pwd" id="pwd">
+            </section>
+            <section>
+                <label for="dob">Date of birth:</label>
+                <input type="date" name="dob" id="dob">
+            </section>
+            <section>
+                <label for="birthdaytime">Birthday (date and time)</label>
+                <input type="datetime-local" name="birthdaytime" id="birthdaytime">
+            </section>
+            <section>
+                <label for="email">Enter your email:</label>
+                <input type="email" name="email" id="email">
+            </section>
+            <section>
+                <label for="myfile">Select a file:</label>
+                <input type="file" name="myfile" id="myfile">
+            </section>
+            <section>
+                <input type="hidden" name="customerId" id="customerId" value="3487">
+            </section>
+            <section>
+                <input type="image" src="https://i1.wp.com/sabreuse.com/wp-content/uploads/2013/06/red-submit-button-hi.png?fit=1200%2C1200" alt="Submit" width="150" height="48">
+            </section>
+            <section>
+                <input type="number" name="quantity" id="quantity" min="1" max="5">
+            </section>
+            <section>
+                <label for="volume">Volume:</label>
+                <input type="range" name="volume" id="volume" min="0" max="10">
+            </section>
+            <section>
+                <input type="reset">
+            </section>
+            <section>
+                <label for="gsearch">Search in Google:</label>
+                <input type="search" name="gsearch" id="gsearch">
+            </section>
+            <section>
+                <label for="appt">Select a time:</label>
+                <input type="time" name="appt" id="appt">
+            </section>
+            <section>
+                <label for="phone">Enter your phone number</label>
+                <input type="tel" name="phone" id="phone" pattern="[+][1][0-9]{11,14}">
+            </section>
+            <section>
+                <label for="homepage">Add your homepage:</label>
+                <input type="url" name="homepage" id="homepage">
+            </section>
+            <section>
+                <label for="week">Select a week:</label>
+                <input type="week" name="week" id="week">
+            </section>
+            <section>
+                <label for="bdaymonth">Birthday (month and year):</label>
+                <input type="month" name="bdaymonth" id="bdaymonth" min="1930-01" max="2000-01">
+            </section>
+        </main>
+    </body>
+</html>

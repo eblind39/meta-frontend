@@ -242,3 +242,25 @@ bun test --coverage
 |Meta OGP guide for webmasters|https://developers.facebook.com/docs/sharing/webmasters/|
 |Bootstrap with HTML|https://www.bootstrapdash.com/blog/use-bootstrap-with-html|
 |Bootstrap Layout Examples|https://getbootstrap.com/docs/5.2/examples/|
+
+### Input types
+
+|Input|Description|
+|---|---|
+|*\<input type="text"\>*|text|
+|*\<input type="hidden"\>*|hidden text|
+|*\<input type="email"\>*|electronic mail|
+|*\<input type="tel"\>*|telephone|
+|*\<input type="url"\>*|url|
+|*\<input type="date"\>*|date|
+|*\<input type="time"\>*|time|
+|*\<input type="week"\>*|week|
+|*\<input type="month"\>*|week|
+|*\<input type="number"\>*|number|
+|*\<input type="range"\>*|range|
+|*\<input type="color"\>*|color|
+|*\<input type="file"\>*|choose file|
+|*\<input type="submit"\>*|submit form|
+|*\<input type="image"\>*|image|
+|*\<input type="reset"\>*|reset form to default values|
+|*\<input type="search"\>*|search|
