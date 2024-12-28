@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Little Lemon</title>
+        <meta name="description" content="Little Lemon restaurant">
+        <meta name="author" content="Your Site Name">
+
+        <!-- Open Graph Protocol - for media sharing -->
+        <meta property="og:title" content="Our Menu">
+        <meta property="og:type"  content="website">
+        <meta property="og:image" content="logo.png">
+        <meta property="og:url"   content="https://littlelemon/">
+        <meta property="og:description" content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:site_name" content="Little Lemon">
+
+        <!-- icons -->
+        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="favicon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <!-- Include your CSS files here -->
+        <link rel="stylesheet" href="css/signin.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png">
+        </header>
+        <nav>
+        </nav>
+        <main>
+            <h1>Book a Table</h1>
+            <form method="post">
+                <div>
+                    <label for="booking_date">Booking Date:</label>
+                    <input type="date" name="booking_date" id="booking_date">
+                </div>
+                <div>
+                    <label for="booking_people">Number of People:</label>
+                    <input type="range" name="booking_people" id="booking_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value = this.value">
+                    <output>4</output>
+                </div>
+                <div>
+                    <label for="booking_location">Location:</label>
+                    <input id="booking_location" name="booking_location" list="locations">
+                    <datalist id="locations">
+                        <option value="Downtown">
+                        <option value="Uptown">
+                    </datalist>
+                </div>
+                <button type="submit">Book table</button>
+            </form>
+        </main>
+        <footer>
+            <p>Copyright Little Lemon</p>
+        </footer>
+
+        <script src="js/script.js" type="text/javascript"></script>
+    </body>
+</html>

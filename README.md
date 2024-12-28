@@ -264,3 +264,14 @@ bun test --coverage
 |*\<input type="image"\>*|image|
 |*\<input type="reset"\>*|reset form to default values|
 |*\<input type="search"\>*|search|
+
+### Attributes for validation
+
+|Attribute|Description|
+|---|---|
+|*required*|Denotes a mandatory input that the user can’t leave empty. It can be used with any input type|
+|*minlength*|Specifies the minimum length of a text input|
+|*maxlength*|Specifies the maximum length of a text input|
+|*min and max*|Determine the minimum and maximum values allowed for an input field. They are usually applied to numerical text inputs|
+|*multiple*|Indicates that the user can enter more than one value in a single input field. This attribute can only be used for email and file input types|
+|*pattern*|Defines a particular pattern that an input field value has to fulfill to be considered valid, a regular expression to specify the pattern|
