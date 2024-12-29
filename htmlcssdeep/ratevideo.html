@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Video Rating</title>
+
+  <link rel="stylesheet" href="css/signin.css">
+</head>
+<body>
+  <video controls width="320" height="240">
+    <source src="media/ambient-pub-6696.mp4" type="video/mp4">
+  </video>
+  <form action="/rating" method="POST">
+    <div>
+      <label for="rating">Rating</label>
+      <input type="range" name="rating" id="rating" min="1" max="5" list="ratings">
+      <datalist id="ratings">
+        <option value="1" label="1"></option>
+        <option value="2"></option>
+        <option value="3"></option>
+        <option value="4"></option>
+        <option value="5" label="5"></option>
+      </datalist>
+      <button type="submit">Submit Rating</button>
+    </div>
+  </form>
+</body>
+
+</html>
