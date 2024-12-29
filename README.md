@@ -248,6 +248,12 @@ bun test --coverage
 |Input type: Radio buttons|https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio|
 |Why does your website look different in different browsers?|https://www.webfx.com/web-design/learn/why-does-your-website-look-different-in-different-browsers/|
 |HTML Form submission – sending form data|https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data|
+|Media|https://html.com/media/|
+|Embed|https://studio.support.brightcove.com/publish/choosing-correct-embed-code.html|
+|Images|https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML|
+|iframes|https://www.educba.com/iframes-in-html/|
+|canvas|https://www.tutorialrepublic.com/html-tutorial/html5-canvas.php|
+|Multipage|https://html.spec.whatwg.org/multipage/media.html|
 
 ### Input types
 
