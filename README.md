@@ -281,3 +281,33 @@ bun test --coverage
 |*min and max*|Determine the minimum and maximum values allowed for an input field. They are usually applied to numerical text inputs|
 |*multiple*|Indicates that the user can enter more than one value in a single input field. This attribute can only be used for email and file input types|
 |*pattern*|Defines a particular pattern that an input field value has to fulfill to be considered valid, a regular expression to specify the pattern|
+
+### iframes
+
+\<iframe src="https://example.com/…" name="My Frame" width="400" height="300" allow="camera; microphone; fullscreen; geolocation" sandbox="allow-forms allow-scripts" title="An embedded document about my fb feed"\> \</iframe\>
+
+|sandbox value|Description|
+|---|---|
+|*allow-downloads*|Allows the user to download an item|
+|*allow-forms*|Allows the user to submit forms|
+|*allow-modals*|The resource can open modal windows|
+|*allow-orientation-lock*|Lets the resource lock the screen orientation|
+|*allow-popups*|Allows popups to open|
+|*allow-presentation*|Allows a presentation session to start|
+|*allow-scripts*|Lets the resource run scripts without creating popup windows|
+
+_When the value of this attribute is empty, all restrictions are applied_
+
+|referrerpolicy value|Description|
+|---|---|
+|*no-referrer*|The referrer header will not be sent|
+|*origin*|The referrer will be limited to the origin of the referring page|
+|*strict-origin*|The origin of the document is sent as the referrer only when using the same protocol security level (HTTPS to HTTPS)|
+
+\<iframe src="my_iframe_src.html" srcdoc="\<p\>My inline html\</p\>"\> 
+\</iframe\>
+
+|loading value|Description|
+|---|---|
+|*eager*|iframe should be loaded immediately when the web page loads|
+|*lazy*|Loaded when iframe is displayed in the browser|
