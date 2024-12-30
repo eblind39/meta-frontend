@@ -335,6 +335,19 @@ _When the value of this attribute is empty, all restrictions are applied_
 
 <img title="flexbox" alt="flexbox" src="./htmlcssdeep/images/Understanding-Flexbox.png">
 
+### grid properties
+
+|Property|Description|
+|---|---|
+|*display: grid*|Allow you organize the various elements on your page|
+|*grid-template-rows: none*|Configure your elements but with this setting the elements are organized like columns on a table|
+|*grid-template-areas: none*|Configure the names of a grid and how they sit in relation to one another|
+|*grid-auto-rows: auto*|Default setting for all row sizes that have not been explicitly configured|
+|*grid-auto-columns: auto*|Default setting for all column sizes that have not been explicitly configured|
+|*grid-auto-flow: row*|Default location for rows that are not explicitly allocated|
+|*column-gap: normal*|This sets the gap between the columns|
+|*row-gap: normal*|This sets the gap between the rows|
+
 ### Abosulute units
 Absolute units are used when the size of the web page is known and will remain constant
 
