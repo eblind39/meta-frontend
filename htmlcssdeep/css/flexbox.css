@@ -1,0 +1,40 @@
+.box, .box2 {
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 10px;
+    border: 1px solid lightgray;
+    margin-bottom: 8px;
+}
+
+.box3 {
+    background-color: blanchedalmond;
+    align-self: center;
+    flex: 1 1 auto;
+}
+
+.flex-container2 {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 10px;
+    border: 1px solid lightgray;
+}
+
+.box23 {
+    background-color: lightgoldenrodyellow;
+    align-self: center;
+    flex: 1 1 auto;
+}

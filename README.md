@@ -317,3 +317,20 @@ _When the value of this attribute is empty, all restrictions are applied_
 |---|---|
 |*eager*|iframe should be loaded immediately when the web page loads|
 |*lazy*|Loaded when iframe is displayed in the browser|
+
+### flexbox properties
+
+|Property|Description|
+|---|---|
+|*justify-content*|For item alignment on main axis|
+|*align-items*|For item alignment on cross axis|
+|*align-self*|For unique flex items on cross axis - alignment|
+|*align-content*|Used for packing flex lines and control over space|
+|flex-wrap|Span the entire width of the axis|
+|flex-direction|Change the ‘main’ axis from horizontal rows to vertical columns|
+|flex-grow, flex-shrink, flex-basis|Together these determine how the flex takes up space, grows or shrinks according to the space available|
+|flex: 0 1 auto;|flex-grow set to 0, flex-shrink to 1 and flex-basis to auto|
+|||
+|flexbox|https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-terminology|
+
+<img title="flexbox" alt="flexbox" src="./htmlcssdeep/images/Understanding-Flexbox.png">
