@@ -384,3 +384,14 @@ Given the dynamic nature of web pages today and the variable size of devices in 
 |vmin|1% of the smaller dimension of viewport|
 |vmax|1% of the larger dimension of viewport|
 |%|Denotes a percentage value in relation to its parent element|
+
+### CSS hierarchy
+
+|Type|Description|Example|
+|---|---|---|
+|Inline styles|Attached with the ‘style’ attribute, they have the highest specificity|\<p style=“color: white;”\> |
+|IDs|They are represented by ‘#’|#div|
+|Classes, attributes, and pseudo-classes|Classes, and the attributes inside the selectors|.my-class, p[“attribute”], div:hover|
+|Elements and pseudo-elements|They have the lowest position in the specificity hierarchy|div, p|
+
+_CSS specificity_
