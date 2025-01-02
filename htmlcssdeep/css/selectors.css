@@ -1,0 +1,19 @@
+div > h1 {
+    color: green;
+}
+
+h1 ~ p {
+    color: blue;
+}
+
+h2 + p {
+    color: red;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul:nth-child(3) {
+    color: orange;
+}
