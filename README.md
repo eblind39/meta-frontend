@@ -483,3 +483,30 @@ _CSS specificity_
 |::first-line|p::first-line { }|Selects first line of every \<p\> element|
 |::placeholder|input::placeholder { }|Selects input elements with "placeholder" attribute specified|
 |::marker|::marker { }|Selects markers in a list|
+
+```css
+@keyframes animationname { keyframes-selector { css-styles; } }
+
+@keyframes animationname {
+    from { color: blue; }
+    to { color: red; }
+}
+
+animation: name duration timing-function delay iteration-count direction fill-mode play-state;
+
+div {
+    animation: myanimation 3s infinite;
+}
+```
+
+The shorthand for the animation property consists of the following properties with their default values:
+
+* animation-name: none 
+* animation-duration: 0s 
+* animation-timing-function: ease 
+* animation-delay: 0s 
+* animation-iteration-count: 1 
+* animation-direction: normal 
+* animation-fill-mode: none 
+* animation-play-state: running 
+* animation-timeline: auto

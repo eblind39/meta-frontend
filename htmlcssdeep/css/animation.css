@@ -1,0 +1,65 @@
+.minutes {
+    animation: cycle 6s infinite linear;
+    width: 70%;
+    height: 12px;
+    background-color: black;
+}
+
+.hours {
+    animation: cycle 60s infinite linear;
+    width: 50%;
+    height: 12px;
+    background-color: black;
+}
+
+@keyframes cycle {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes identifier { 
+    0% { transform: rotate(100deg); }
+    30% { opacity: 1; }
+    50% { opacity: 0.50; }
+    70% { opacity: 1; }
+    100% { transform: rotate(50deg); }
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;    font-size: 100px;
+    font-family: 'Orbitron', sans-serif;
+    color: #333;
+    background-color: coral;
+    border-radius: 50%;
+}
+
+.box {
+    background-color: lightcoral;
+    width: 50px;
+    height: 50px;
+    animation: myanimation 3s infinite ease-in;
+}
+
+/*@keyframes myanimation {
+    from {  }
+    to { width: 100px; }
+}*/
+
+@keyframes myanimation {
+    0% {
+        width: 50px;
+        height: 50px; 
+    }
+    50% { 
+        background-color: aquamarine;
+        height: 20px;
+    }
+    100% {
+        width: 100px;
+        height: 100px;
+    }
+}
