@@ -39,14 +39,9 @@ article {
 }
 
 footer {
-    text-align: center;
     display: flex;
 }
 
 footer div {
     flex: 1;
-}
-
-footer div > * {
-    display: inline-block;
 }
