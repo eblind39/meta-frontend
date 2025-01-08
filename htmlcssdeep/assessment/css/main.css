@@ -42,6 +42,18 @@ li a:hover {
     color: rgb(196, 155, 62);
 }
 
-a[href^="index"] {
-    color: rgb(74, 101, 84);
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    width: 90%;
+}
+
+footer div {
+    flex: 1;
+    margin: 0 8px 0 8px;
+}
+
+footer div:nth-child(2) {
+    text-align: right;
 }

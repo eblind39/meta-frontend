@@ -13,7 +13,7 @@ main > section {
 }
 
 main section:first-child {
-    margin: 0 10px 0 10px;
+    margin: 4em 10px 0 10px;
     text-align: justify;
 }
 
@@ -25,6 +25,7 @@ article {
     flex: 1;
     width: 32%;
     margin: 0 8px 0 8px;
+    padding: 2em;
 }
 
 section > article {
@@ -42,6 +43,6 @@ h1 {
     cursor: pointer;
 }
 
-a[href^="index"] {
+a[href^="about"] {
     color: rgb(74, 101, 84);
 }
