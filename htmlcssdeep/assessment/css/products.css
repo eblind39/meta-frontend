@@ -1,17 +1,22 @@
 main section:first-child {
-    margin: 4em 10px 0 10px;
+    margin: 0 10px 0 10px;
     text-align: justify;
 }
 
-section {
+#listing {
     display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 5px;
 }
 
-article {
-    flex: 1;
-    width: 32%;
-    margin: 0 8px 0 8px;
-    padding: 2em;
+#listing > article {
+    width: 20em;
+    margin: 0.8em;
+}
+
+figure > img {
+    width: 14em;
 }
 
 section > article {
@@ -29,6 +34,6 @@ h1 {
     cursor: pointer;
 }
 
-a[href^="about"] {
+a[href^="products"] {
     color: rgb(74, 101, 84);
 }
