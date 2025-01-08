@@ -1,0 +1,47 @@
+body {
+    background-color: #EDEFEE;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+nav menu {
+    list-style: none;
+    text-align: center;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+}
+
+menu li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    margin: 0 8px 0 8px;
+}
+
+.menuseparator, li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(199, 112, 70);
+}
+
+li a:hover {
+    color: rgb(196, 155, 62);
+}
+
+a[href^="index"] {
+    color: rgb(74, 101, 84);
+}
