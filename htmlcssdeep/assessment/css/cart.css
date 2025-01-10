@@ -1,0 +1,39 @@
+main section:first-child {
+    margin: 0 10px 0 10px;
+    text-align: justify;
+}
+
+#listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 5px;
+}
+
+#listing > article {
+    width: 20em;
+    margin: 0.8em;
+}
+
+figure > img {
+    width: 14em;
+}
+
+section > article {
+    background-color: white;
+}
+
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 4px;
+    color: rgb(140, 168, 158);
+}
+
+.product:hover {
+    cursor: pointer;
+}
+
+a[href^="cart"] {
+    color: rgb(74, 101, 84);
+}

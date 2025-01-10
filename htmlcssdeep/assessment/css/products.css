@@ -1,13 +1,25 @@
 main section:first-child {
     margin: 0 10px 0 10px;
     text-align: justify;
+    width: 95%;
+    background-color: #EDEFEE;
+    margin: auto;
+}
+
+main section:first-child p {
+    float: left;
+}
+
+main section:first-child div {
+    float: right;
 }
 
 #listing {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
     padding: 5px;
+    clear: both;
 }
 
 #listing > article {
@@ -30,10 +42,54 @@ h1 {
     color: rgb(140, 168, 158);
 }
 
-.product:hover {
+.container-prodimg > img:hover {
     cursor: pointer;
 }
 
 a[href^="products"] {
     color: rgb(74, 101, 84);
+}
+
+
+/* search bar */
+#search-container {
+    display: inline-flex;
+    flex: 0.3 1 300px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    overflow: hidden;
+}
+
+.icon {
+    padding: 0.8rem;
+}
+
+.searchBox {
+    border: 0;
+    flex: 1;
+}
+
+.searchButton {
+    color: white;
+    background-color: rgb(78, 111, 90);
+    border: 0;
+    padding: 0.8rem;
+    border-radius: 8px;
+}
+
+.container-prodimg {
+    position: relative;
+    width: 100%;
+}
+
+.container-prodimg > button {
+    position: absolute;
+    background-color: rgb(199, 158, 65);
+    padding: 8px 24px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    top: 85%;
+    left: 0%;
+    display: none;
 }
