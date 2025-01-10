@@ -1,4 +1,4 @@
-import { multTwo } from './multdef_mod';
+import multTwo from './multdef_mod';
 import { addTwo, addThree } from './addfns_mod';
 
 console.log('multTwo', multTwo(2, 3));
