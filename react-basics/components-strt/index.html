@@ -44,12 +44,17 @@
         <script type="text/babel">
             const rootElement = document.querySelector('#root');
 
-            const Header = () => {
-                return <h1>Hello World!</h1>;
+            const Heading = () => {
+                return <h1>This is an h1 heading</h1>;
             }
 
             const App = () => {
-                return <Header />
+                return ( 
+                    <div className="App"> 
+                    This is the starting code for "Your first component" ungraded lab 
+                    <Heading /> 
+                    </div> 
+                );
             }
 
             const root = ReactDOM.createRoot(rootElement)
