@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>React Components</title>
+        <meta name="description" content="React Components intro">
+        <meta name="author" content="React Components">
+
+        <!-- Open Graph Protocol - for media sharing -->
+        <meta property="og:title" content="React Components intro">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://www.reactcomponents.com">
+        <meta property="og:description" content="React Components itro">
+        <meta property="og:image" content="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png">
+
+        <!-- icons -->
+        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="favicon.svg" type="https://www.svgrepo.com/show/303500/react-1-logo.svg">
+        <link rel="apple-touch-icon" href="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png">
+
+        <!-- Include your CSS files here -->
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <p>React Components</p>
+        </header>
+        <nav>
+        </nav>
+        <main>
+            <div id="root"></div>
+        </main>
+        <footer>
+            <p>Footer</p>
+        </footer>
+
+        <script src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script src="https://unpkg.com/prop-types@15.8.1/prop-types.min.js"></script>
+
+        <script type="text/babel">
+            const rootElement = document.querySelector('#root');
+
+            const Nav = () => {
+                return (
+                    <nav className="main-nav">
+                        <menu>
+                            <li>Home</li>
+                            <li>Articles</li>
+                            <li>About</li>
+                            <li>Contact</li>
+                        </menu>
+                    </nav>
+                )
+            }
+
+            const Promo = () => {
+                return (
+                    <div className="promo-section">
+                        <div>
+                            <h1>Don't miss the deal</h1>
+                        </div>
+                        <div>
+                            <h2>Subscribe to my newsletter and get all the shop items al 50% off</h2>
+                        </div>
+                    </div>
+                )
+            }
+
+            const Intro1 = () => {
+                return (
+                    <div className="blog-post-intro">
+                        <h2>I've become a React developer!</h2>
+                        <div>
+                            <p>I've completed the React Basics course and I'm happy to annouce I'm now a Junior React Developer </p>
+                            <p className="link">Read more...</p>
+                        </div>
+                    </div>
+                )
+            }
+
+
+            const Intro2 = () => {
+                return (
+                    <div className="blog-post-intro">
+                        <h2>Why I love front-end web development</h2>
+                        <div>
+                            <p>In this blog post, I'll list 10 reasons I love to work as a front-end developer.</p>
+                            <p className="link">Read more...</p>
+                        </div>
+                    </div>
+                )
+            }
+
+            const Intro3 = () => {
+                return (
+                    <div className="blog-post-intro">
+                        <h2>What's the best way to style your React apps?</h2>
+                        <div>
+                            <p>There are so many options to choose from. Here's a high-level overview of the popular ones.</p>
+                            <p className="link">Read more...</p>
+                        </div>
+                    </div>
+                )
+            }
+
+            const Footer = () => {
+                return (
+                    <div className="copyright">
+                        <p>Made with love by Myself</p>
+                    </div>
+                )
+            }
+
+            const App = () => {
+                return ( 
+                    <div className="App"> 
+                        <Nav />
+                        <Promo />
+                        <Intro1 />
+                        <Intro2 />
+                        <Intro3 />
+                        <Footer />
+                    </div> 
+                );
+            }
+
+            const root = ReactDOM.createRoot(rootElement)
+            root.render(<App />)
+        </script>
+    </body>
+</html>
