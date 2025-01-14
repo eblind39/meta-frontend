@@ -1,6 +1,10 @@
-js_test_intro/node_modules/
-js_test_intro/package-lock.json
-js_test_intro/bun.lockb
+frontend-intro/js_test_intro/node_modules/
+frontend-intro/js_test_intro/package-lock.json
+frontend-intro/js_test_intro/bun.lockb
+
+react-basics/module01_lab01/node_modules/
+react-basics/module01_lab01/package-lock.json
+react-basics/module01_lab01/bun.lockb
 
 # Logs
 logs
