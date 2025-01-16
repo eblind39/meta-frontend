@@ -20,3 +20,30 @@
 ```sh
 bun create vite
 ```
+
+The _React.createElement_ function receives three arguments:
+
+1. The wrapping element to render. 
+2. A null value (which is there to show an absence of an expected JavaScript object value). 
+3. The inner content that will go inside the wrapping element.
+
+```javascript
+    function Heading(props) {
+        return React.createElement("h1", null, props.title);
+    }
+
+    function App() {
+        return React.createElement(
+                "div", 
+                null, 
+                "\xA0", 
+                React.createElement(Heading, { salute: "Hello " }));
+    }
+
+    /* syntax */
+    React.createElement(
+        type,
+        [props],
+        [...children]
+    )
+```

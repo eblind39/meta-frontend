@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>React props</title>
+        <meta name="description" content="React props intro">
+        <meta name="author" content="React props">
+
+        <!-- Open Graph Protocol - for media sharing -->
+        <meta property="og:title" content="React props intro">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://www.reactprops.com">
+        <meta property="og:description" content="React props itro">
+        <meta property="og:image" content="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png">
+
+        <!-- icons -->
+        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="favicon.svg" type="https://www.svgrepo.com/show/303500/react-1-logo.svg">
+        <link rel="apple-touch-icon" href="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png">
+
+        <!-- Include your CSS files here -->
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <p>React props</p>
+        </header>
+        <nav>
+        </nav>
+        <main>
+            <div id="root"></div>
+        </main>
+        <footer>
+            <p>Footer</p>
+        </footer>
+
+        <script src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script src="https://unpkg.com/prop-types@15.8.1/prop-types.min.js"></script>
+
+        <script type="text/babel">
+            const rootElement = document.querySelector('#root');
+
+            const Header = (props) => {
+                console.log(props);
+
+                return (
+                    <h1>Hello there {props.name}, favorite color: {props.color} </h1>
+                )
+            }
+
+            const App = () => {
+                return ( 
+                    <div className="App"> 
+                        <Header name="Ana" color="purple" />
+                    </div> 
+                );
+            }
+
+            const root = ReactDOM.createRoot(rootElement)
+            root.render(<App />)
+        </script>
+    </body>
+</html>
