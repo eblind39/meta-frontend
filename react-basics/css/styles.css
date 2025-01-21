@@ -1,0 +1,9 @@
+.promo-section {
+    color: coral;
+    font-weight: bold;
+    line-height: 0;
+}
+
+.App > div {
+    margin-bottom: 45px;
+}
