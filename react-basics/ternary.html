@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>React ternary JSX</title>
+        <meta name="description" content="React ternary JSX intro">
+        <meta name="author" content="React ternary JSX">
+
+        <!-- Open Graph Protocol - for media sharing -->
+        <meta property="og:title" content="React ternary JSX intro">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://www.reactprops.com">
+        <meta property="og:description" content="React ternary JSX intro">
+        <meta property="og:image" content="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png">
+
+        <!-- icons -->
+        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="favicon.svg" type="https://www.svgrepo.com/show/303500/react-1-logo.svg">
+        <link rel="apple-touch-icon" href="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png">
+
+        <!-- Include your CSS files here -->
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <header>
+            <p>React ternary JSX</p>
+        </header>
+        <nav>
+        </nav>
+        <main>
+            <div id="root"></div>
+        </main>
+        <footer>
+            <p>Footer</p>
+        </footer>
+
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script src="https://unpkg.com/prop-types@15.8.1/prop-types.min.js"></script>
+
+        <script type="text/babel" data-type="module">
+            import React from "https://esm.sh/react@19/?dev";
+            import ReactDOM from "https://esm.sh/react-dom@19/client?dev";
+
+            const rootElement = document.querySelector('#root');
+
+            const TernaryExample = (props) => {
+                return (
+                    <div className="promo-section">
+                        <h1>{props.randoNumber >= 0.5 ? "Over 0.5" : "Under 0.5"}</h1>
+                    </div>
+                )
+            }
+
+            const ExampleRandomNum = () => {
+                const getRandomNum = () => Math.floor(Math.random() * 10) + 1
+
+                return (
+                    <div className="heading">
+                        <h1>Here's a random number from 0 to 10: { getRandomNum() }</h1>
+                    </div>
+                );
+            }
+
+            const App = () => {
+                return ( 
+                    <div className="App"> 
+                        <TernaryExample randoNumber={Math.random()} />
+                        <ExampleRandomNum />
+                    </div> 
+                );
+            }
+
+            const root = ReactDOM.createRoot(rootElement)
+            root.render(<App />)
+        </script>
+    </body>
+</html>
