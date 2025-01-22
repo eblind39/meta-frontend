@@ -1,6 +1,7 @@
 import Heading from './Heading';
 import Card from './Card';
 import Btn from './Btn';
+import BtnHandling from './BtnHandling';
 import logo from './assets/logo.png';
 import './css/card.css';
 
@@ -23,7 +24,9 @@ function App({title = ''}: Props = {}) {
       <Card h2="First card's h2" h3="First card's h3" />
       <Card h2="Second card's h2" h3="Second card's h3" />
       <Card h2="Third card's h2" h3="Third card's h3" />
-      < Btn />
+      <Btn />
+      <div>Event handling and embedded expressions</div>
+      <BtnHandling />
     </div>
   );
 }
