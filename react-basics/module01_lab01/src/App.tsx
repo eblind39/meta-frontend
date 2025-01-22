@@ -3,6 +3,7 @@ import Card from './Card';
 import Btn from './Btn';
 import BtnHandling from './BtnHandling';
 import ModeToggler from './ModeToggler'
+import GuessNumber from './GuessNumber';
 import logo from './assets/logo.png';
 import './css/card.css';
 
@@ -30,6 +31,8 @@ function App({title = ''}: Props = {}) {
       <BtnHandling />
       <div>Theme toggler (dark/light)</div>
       <ModeToggler />
+      <div>Guess a number between 1 and 3</div>
+      <GuessNumber />
     </div>
   );
 }

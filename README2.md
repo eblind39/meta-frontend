@@ -19,6 +19,12 @@
 |Intoducing JSX|https://reactjs.org/docs/introducing-jsx.html|
 |Styling and CSS in React|https://reactjs.org/docs/faq-styling.html|
 |Introducing expressions in JSX|https://reactjs.org/docs/introducing-jsx.html#embedding-expressions-in-jsx|
+|Handling Events|https://reactjs.org/docs/handling-events.html#gatsby-focus-wrapper|
+|Supported Events|https://reactjs.org/docs/events.html#supported-events|
+|SyntheticEvent|https://reactjs.org/docs/events.html#gatsby-focus-wrapper|
+|How do I pass an event handler (like onClick) to a component?|https://reactjs.org/docs/faq-functions.html#how-do-i-pass-an-event-handler-like-onclick-to-a-component|
+|JavaScript Expressions as Props|https://reactjs.org/docs/faq-functions.html#how-do-i-pass-an-event-handler-like-onclick-to-a-component|
+|JavaScript Expressions as Children|https://reactjs.org/docs/jsx-in-depth.html#javascript-expressions-as-children|
 
 ### Create React App and many more...
 ```sh
