@@ -11,7 +11,7 @@ const BtnHandling = () => {
             onMouseOver={() => console.log('second example, inline anonym ES6 fn')}
             onMouseLeave={thirdExample}
             onMouseEnter={fourthExample}>
-            Event Hndlg Approaches
+            Event Handling Approaches
         </button>
     )
 }

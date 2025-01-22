@@ -2,6 +2,7 @@ import Heading from './Heading';
 import Card from './Card';
 import Btn from './Btn';
 import BtnHandling from './BtnHandling';
+import ModeToggler from './ModeToggler'
 import logo from './assets/logo.png';
 import './css/card.css';
 
@@ -27,6 +28,8 @@ function App({title = ''}: Props = {}) {
       <Btn />
       <div>Event handling and embedded expressions</div>
       <BtnHandling />
+      <div>Theme toggler (dark/light)</div>
+      <ModeToggler />
     </div>
   );
 }
