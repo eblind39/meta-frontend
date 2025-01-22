@@ -1,7 +1,14 @@
 import React from "react";
 
 const ModeToggler = () => {
-    const [darkModeOn, setDarkModeOn] = React.useState(true);
+    const [darkModeOn, setDarkModeOn] = React.useState<boolean>(true);
+
+    /*
+        const darkMode: Array<any> = useState<boolean>(true);
+        const darkModeOn: boolean = darkMode[0];
+        const setDarkModeOn: React.Dispatch<React.SetStateAction<boolean>> = darkMode[1];
+    */
+
     // let darkModeOn: boolean = true;
     const darkMode: JSX.Element = React.createElement('h1', null, 'Dark Mode is On');
     const lightMode: JSX.Element = React.createElement('h1', null, 'Light Mode is On');
