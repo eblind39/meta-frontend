@@ -7,6 +7,7 @@ import GuessNumber from './GuessNumber';
 import InputComponent from './InputComponent';
 import RegisterForm from './RegisterForm';
 import TextInputWithFocusButton from './TextInputWithFocusButton';
+import PropDrillingContainer from './PropDrilling';
 import logo from './assets/logo.png';
 import './css/card.css';
 
@@ -39,6 +40,7 @@ function App({title = ''}: Props = {}) {
       <div>Guess a number between 1 and 3</div>
       <GuessNumber />
       <InputComponent />
+      <PropDrillingContainer />
     </div>
   );
 }
