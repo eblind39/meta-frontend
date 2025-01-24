@@ -6,6 +6,7 @@ import ModeToggler from './ModeToggler'
 import GuessNumber from './GuessNumber';
 import InputComponent from './InputComponent';
 import RegisterForm from './RegisterForm';
+import TextInputWithFocusButton from './TextInputWithFocusButton';
 import logo from './assets/logo.png';
 import './css/card.css';
 
@@ -25,6 +26,7 @@ function App({title = ''}: Props = {}) {
       <p>{ title }</p>
       <Heading />
       <RegisterForm />
+      <TextInputWithFocusButton />
       <h1>Task: Add three Card elements</h1>
       <Card h2="First card's h2" h3="First card's h3" />
       <Card h2="Second card's h2" h3="Second card's h3" />
