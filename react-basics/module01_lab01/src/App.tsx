@@ -1,3 +1,4 @@
+import {useState} from 'react';
 import Heading from './Heading';
 import Card from './Card';
 import Btn from './Btn';
@@ -8,6 +9,9 @@ import InputComponent from './InputComponent';
 import RegisterForm from './RegisterForm';
 import TextInputWithFocusButton from './TextInputWithFocusButton';
 import PropDrillingContainer from './PropDrilling';
+import Fruits from './Fruits';
+import FruitsCounter from './FruitsCounter';
+import FruitType from './types/fruittype';
 import logo from './assets/logo.png';
 import './css/card.css';
 
@@ -21,11 +25,20 @@ interface Props {
 }
 
 function App({title = ''}: Props = {}) {
+  const [fruits] = useState<Array<FruitType>>([
+      {fruitName: 'apple', id: 1},
+      {fruitName: 'orange', id: 2},
+      {fruitName: 'plum', id: 3},
+      {fruitName: 'pear', id: 3},
+  ]);
+
   return (
     <div className="App">
       <Logo />
       <p>{ title }</p>
       <Heading />
+      <Fruits fruitsprop={fruits} />
+      <FruitsCounter fruitsprop={fruits} />
       <RegisterForm />
       <TextInputWithFocusButton />
       <h1>Task: Add three Card elements</h1>
