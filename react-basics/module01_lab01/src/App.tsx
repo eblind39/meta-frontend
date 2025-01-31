@@ -11,6 +11,7 @@ import TextInputWithFocusButton from './TextInputWithFocusButton';
 import PropDrillingContainer from './PropDrilling';
 import Fruits from './Fruits';
 import FruitsCounter from './FruitsCounter';
+import MealsView from './MealsView';
 import FruitType from './types/fruittype';
 import logo from './assets/logo.png';
 import './css/card.css';
@@ -54,6 +55,7 @@ function App({title = ''}: Props = {}) {
       <GuessNumber />
       <InputComponent />
       <PropDrillingContainer />
+      <MealsView />
     </div>
   );
 }
