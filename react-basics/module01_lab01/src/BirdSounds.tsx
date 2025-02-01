@@ -1,4 +1,4 @@
-import React from "react";
+import React, { CSSProperties } from "react";
 
 const BirdSounds = () => {
     const bird1: HTMLAudioElement = new Audio(
@@ -25,7 +25,7 @@ const BirdSounds = () => {
         }
     }
 
-    const imgStyle = {position: "absolute", color: "coral", fontWeight: "bold", textAlign: "center", top: "220px"};
+    const imgStyle: CSSProperties = {position: "absolute", color: "coral", fontWeight: "bold", textAlign: "center", top: "220px"};
 
     return (
         <React.Fragment>

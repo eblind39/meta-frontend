@@ -43,6 +43,11 @@
 |if...else|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else|
 |Ramdom image|https://picsum.photos/400/265|
 |Create a react app with bun.sh|https://dev.to/ashirbadgudu/create-a-react-app-with-bun-125o|
+|webpack docs|https://webpack.js.org/guides/getting-started/|
+|webpack asset management|https://webpack.js.org/guides/asset-management/|
+|npm docs|https://docs.npmjs.com/|
+|ReactPlayer on npm|https://www.npmjs.com/package/react-player|
+|Video and audio content on the web|https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content|
 
 ### Create React App and many more...
 ```sh
