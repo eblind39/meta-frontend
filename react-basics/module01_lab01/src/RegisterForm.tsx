@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import RegisterFormType from "./types/registrerform";
 import MyVideo from "./MediaPlayer";
+import BirdSounds from "./BirdSounds";
 
 const RegisterForm = () => {
     const [form, setForm] = useState<RegisterFormType>({
@@ -46,6 +47,7 @@ const RegisterForm = () => {
                 {form.lastName}{' '}
                 {form.email}
             </p>
+            <BirdSounds />
             <MyVideo />
         </React.Fragment>
     )
