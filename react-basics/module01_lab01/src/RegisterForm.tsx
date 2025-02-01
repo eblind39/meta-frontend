@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import RegisterFormType from "./types/registrerform";
+import MyVideo from "./MediaPlayer";
 
 const RegisterForm = () => {
     const [form, setForm] = useState<RegisterFormType>({
@@ -45,6 +46,7 @@ const RegisterForm = () => {
                 {form.lastName}{' '}
                 {form.email}
             </p>
+            <MyVideo />
         </React.Fragment>
     )
 }

@@ -37,6 +37,12 @@
 |Synchronizing with effects - putting it all together|https://beta.reactjs.org/learn/synchronizing-with-effects#putting-it-all-together|
 |Fetch API|https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API|
 |The event loop in JavaScript|https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop|
+|React Router v6|https://reactrouter.com/|
+|nav: The Navigation Section element|https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav|
+|Conditional (ternary) operator in JavaScript|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator|
+|if...else|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else|
+|Ramdom image|https://picsum.photos/400/265|
+|Create a react app with bun.sh|https://dev.to/ashirbadgudu/create-a-react-app-with-bun-125o|
 
 ### Create React App and many more...
 ```sh
@@ -73,4 +79,5 @@ The _React.createElement_ function receives three arguments:
 > [Guía para entrevistas tecnicas como Ingeniero de software](https://github.com/DevCaress/guia-entrevistas-de-programacion?tab=readme-ov-file#principios-solid)
 > > Incluye *Principios SOLID en React.JS*
 
-
+* *Assets:* Images, stylesheets, fonts, any static files needed...
+* *Isomorphic Apps:* Combine client-side rendering and server-side rendering (SSR)
