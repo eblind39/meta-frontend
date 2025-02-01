@@ -69,3 +69,8 @@ The _React.createElement_ function receives three arguments:
         [...children]
     )
 ```
+
+> [Guía para entrevistas tecnicas como Ingeniero de software](https://github.com/DevCaress/guia-entrevistas-de-programacion?tab=readme-ov-file#principios-solid)
+> > Incluye *Principios SOLID en React.JS*
+
+
