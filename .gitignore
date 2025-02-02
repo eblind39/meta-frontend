@@ -6,6 +6,10 @@ react-basics/module01_lab01/node_modules/
 react-basics/module01_lab01/package-lock.json
 react-basics/module01_lab01/bun.lockb
 
+react-advanced/react-app/node_modules/
+react-advanced/react-app/package-lock.json
+react-advanced/react-app/bun.lockb
+
 # Logs
 logs
 *.log
