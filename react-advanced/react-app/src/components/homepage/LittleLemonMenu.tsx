@@ -1,6 +1,7 @@
 import "../../css/little_lemon_menu.css"
+import Dish, { TopDessert } from "../../types/dish"
 
-const data = [
+const data: Array<Dish> = [
     {
         id: 1,
         title: "Tiramisu",
@@ -24,7 +25,7 @@ const data = [
     },
 ]
 
-const topDesserts = data.map(dessert => {
+const topDesserts: Array<TopDessert> = data.map((dessert: Dish) => {
     return {
         id: dessert.id,
         image: dessert.image,
@@ -37,7 +38,7 @@ const LittleLemonMenu = () => {
     return (
         <ul>
         {
-            topDesserts.map(dessert => {
+            topDesserts.map((dessert: TopDessert) => {
                 return (
                     <li key={dessert.id}>
                         <figure>
