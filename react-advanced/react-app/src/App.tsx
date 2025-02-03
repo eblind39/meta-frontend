@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route, Link } from 'react-router'
+import { Routes, Route } from 'react-router'
 import MainMenu from './components/MainMenu'
 import HomePage from './views/HomePage'
 
