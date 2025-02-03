@@ -48,6 +48,9 @@
 |npm docs|https://docs.npmjs.com/|
 |ReactPlayer on npm|https://www.npmjs.com/package/react-player|
 |Video and audio content on the web|https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content|
+|Map()|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map|
+|Rendering lists on official React docs website|https://beta.reactjs.org/learn/rendering-lists#rendering-data-from-arrays|
+|React keys on official docs|https://beta.reactjs.org/learn/rendering-lists#where-to-get-your-key|
 
 ### Create React App and many more...
 ```sh
