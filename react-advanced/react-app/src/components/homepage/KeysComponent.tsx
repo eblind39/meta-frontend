@@ -24,7 +24,7 @@ const KeysComponent = () => {
                                 <tr key={todo.id}>
                                     <td>{index}.</td>
                                     <td>{todo.id}</td>
-                                    <td><input type="text" value={todo.text} /></td>
+                                    <td><input type="text" value={todo.text} readOnly /></td>
                                     <td>{todo.createdAt}</td>
                                 </tr>
                             )
