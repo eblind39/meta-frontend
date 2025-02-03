@@ -1,3 +1,5 @@
+import "../../css/little_lemon_menu.css"
+
 const data = [
     {
         id: 1,
@@ -7,14 +9,14 @@ const data = [
         price: 5.00
     },
     {
-        id: 1,
+        id: 2,
         title: "Lemon Ice Cream",
         description: "Mind blowing taste",
         image: "https://picsum.photos/200/300/?random",
         price: 4.50
     },
     {
-        id: 1,
+        id: 3,
         title: "Chocolate mousse",
         description: "Unexplored flavour",
         image: "https://picsum.photos/200/300/?random",
@@ -33,19 +35,23 @@ const topDesserts = data.map(dessert => {
 
 const LittleLemonMenu = () => {
     return (
-        topDesserts.map((dessert, index) => {
-            return (
-                <div key={index}>
-                    <figure>
-                        <img src={dessert.image} alt={dessert.content} />
-                        <figcaption>
-                            <h4>{dessert.content}</h4>
-                            <p>{dessert.price}</p>
-                        </figcaption>
-                    </figure>
-                </div>
-            )
-        })
+        <ul>
+        {
+            topDesserts.map(dessert => {
+                return (
+                    <li key={dessert.id}>
+                        <figure>
+                            <img src={dessert.image} alt={dessert.content} />
+                            <figcaption>
+                                <h4>{dessert.content}</h4>
+                                <p>{dessert.price}</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                )
+            })
+        }
+        </ul>
     )
 }
 

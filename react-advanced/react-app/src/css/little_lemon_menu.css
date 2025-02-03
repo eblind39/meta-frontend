@@ -1,0 +1,13 @@
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+    width: 210px;
+}
+
+figcaption h4 {
+    margin: 0;
+}
