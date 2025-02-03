@@ -18,10 +18,10 @@ const ControlledUncontrolled = () => {
     }
 
     return (
-        <div className="contruncontr-container">
+        <div className="contruncontr-container" style={{ width: "70%" }}>
             <h3>Uncontrolled input</h3>
-            <i>The DOM itself maintains the internal state. We get their value by using React ref</i><br />
-            <i>File input is always uncontrolled because its value is read-only and can't be set programmatically</i>
+            <span>The DOM itself maintains the internal state. We get their value by using React ref</span><br />
+            <span>File input is always uncontrolled because its value is read-only and can't be set programmatically</span>
             <form onSubmit={handleSubmit}>
                 <input type="text" ref={firstNameRef} /><br />
                 <input type="file" ref={fileInputRef} /><br />
@@ -29,7 +29,7 @@ const ControlledUncontrolled = () => {
             </form>
 
             <h3>Controlled input</h3>
-            <i>React maintains the internal state by using a callback and useState</i>
+            <span>React maintains the internal state by using a callback and useState</span>
             <form>
                 <input 
                     type="text"

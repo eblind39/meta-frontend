@@ -32,7 +32,7 @@ const KeysComponent = () => {
                     }
                 </tbody>
             </table>
-            <i>If you use the map index as key, React can't identify changes in DOM after reverse the array items</i>
+            <span>If you use the map index as key, React can't identify changes in DOM after reverse the array items</span>
         </div>
     )
 }

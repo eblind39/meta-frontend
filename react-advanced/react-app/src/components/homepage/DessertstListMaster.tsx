@@ -28,7 +28,7 @@ const desserts: Array<Dessert> = [
 
 const DessertstListMaster = () => {
   return (
-    <div className="contruncontr-container">
+    <div className="contruncontr-container" style={{ width: "70%" }}>
       <h2>List of low calorie desserts:</h2>
       <DessertsListDetail desserts={desserts} />
       <DessertsListDetail2 desserts={desserts} />

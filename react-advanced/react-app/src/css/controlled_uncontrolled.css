@@ -6,3 +6,7 @@
     border-radius: 2%;
     width: 40%;
 }
+
+span {
+    font-style: italic;
+}
