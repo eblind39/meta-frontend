@@ -1,6 +1,7 @@
 import DessertsListDetail from "./DessertsListDetail";
 import Dessert from "../../types/dessert"
 import DessertsListDetail2 from "./DessertsListDetail2";
+import "../../css/controlled_uncontrolled.css";
 
 const desserts: Array<Dessert> = [
   {
@@ -27,7 +28,7 @@ const desserts: Array<Dessert> = [
 
 const DessertstListMaster = () => {
   return (
-    <div>
+    <div className="contruncontr-container">
       <h2>List of low calorie desserts:</h2>
       <DessertsListDetail desserts={desserts} />
       <DessertsListDetail2 desserts={desserts} />

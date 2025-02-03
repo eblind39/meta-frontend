@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ToDo from "../../types/todo";
+import "../../css/controlled_uncontrolled.css"
 
 const KeysComponent = () => {
     const [todos, setTodos] = useState<Array<ToDo>>([
@@ -13,7 +14,7 @@ const KeysComponent = () => {
     }
 
     return (
-        <div>
+        <div className="contruncontr-container">
             <button onClick={reverseOrder}>Reverse</button>
             <table>
                 <tbody>
