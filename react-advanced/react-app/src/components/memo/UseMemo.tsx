@@ -19,7 +19,7 @@ const ComponentA = React.memo(() => <ComponentB />);
 const ComponentB = () => <ComponentC />;
 const ComponentC = () => {
     const contextValue = useContext(AppContext);
-    return null;
+    return <span>{contextValue.a}</span>;
 };
 
 export default UseMemo;
