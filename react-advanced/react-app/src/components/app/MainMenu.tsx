@@ -8,6 +8,7 @@ const MainMenu = () => {
           <Link to="/">Home</Link>
           <Link to="/forms">Forms</Link>
           <Link to="/signup">SignUp</Link>
+          <Link to="/theme">Theme</Link>
           <LoggedInUser />
         </menu>
     )
