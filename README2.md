@@ -51,6 +51,10 @@
 |Map()|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map|
 |Rendering lists on official React docs website|https://beta.reactjs.org/learn/rendering-lists#rendering-data-from-arrays|
 |React keys on official docs|https://beta.reactjs.org/learn/rendering-lists#where-to-get-your-key|
+|Forms from the official React docs|https://reactjs.org/docs/forms.html|
+|Formik|https://formik.org/|
+|Yup|https://github.com/jquense/yup|
+|React-hook-form|https://github.com/react-hook-form/react-hook-form|
 
 ### Create React App and many more...
 ```sh

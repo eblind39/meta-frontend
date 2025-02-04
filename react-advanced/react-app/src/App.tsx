@@ -1,6 +1,6 @@
 import React from 'react'
 import { Routes, Route } from 'react-router'
-import MainMenu from './components/MainMenu'
+import MainMenu from './components/app/MainMenu'
 import HomePage from './views/HomePage'
 import Forms from './views/Forms'
 import SignUp from './views/SignUp'
