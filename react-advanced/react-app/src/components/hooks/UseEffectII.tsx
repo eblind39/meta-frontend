@@ -16,7 +16,7 @@ const UseEffectII = () => {
     }, [toggleMsg])
 
     return (
-        <div>
+        <div className="contruncontr-container">
             <h1>Ussing the useEffect hook</h1>
             <button onClick={clickHandler}>Toggle message</button>
             {

@@ -57,6 +57,10 @@
 |React-hook-form|https://github.com/react-hook-form/react-hook-form|
 |React.memo from the official React docs|https://reactjs.org/docs/react-api.html#reactmemo|
 |useMemo from the official React docs|https://reactjs.org/docs/hooks-reference.html#usememo|
+|destructuring|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment|
+|The read props inside the child component|https://beta.reactjs.org/learn/passing-props-to-a-component#step-2-read-props-inside-the-child-component|
+|useState reference on official React docs website|https://beta.reactjs.org/apis/react/useState#usestate|
+|useEffect reference on official React docs website|https://beta.reactjs.org/apis/react/useEffect#useeffect|
 
 ### Create React App and many more...
 ```sh

@@ -5,6 +5,7 @@ import GiftCard from "../components/hooks/GiftCard";
 import UseMemo from "../components/hooks/UseMemo";
 import UseEffect from "../components/hooks/UseEffect";
 import UseEffectII from "../components/hooks/UseEffectII";
+import UseEffectIII from "../components/hooks/UseEffectIII";
 
 const Hooks = () => {
     return (
@@ -15,6 +16,7 @@ const Hooks = () => {
             <UseMemo />
             <UseEffect chatId={77} />
             <UseEffectII />
+            <UseEffectIII />
         </React.Fragment>
     )
 }
