@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
+import Loading from "../utils/Loading";
 import BTCType from "../../types/btc";
 
-const UseEffectIII = () => {
+const BTCComponent = () => {
     const [btcData, setBtcData] = useState<BTCType | undefined>(undefined);
     const [loading, setLoading] = useState<boolean>(false);
     const [error, setError] = useState<boolean>(false);
@@ -22,8 +23,10 @@ const UseEffectIII = () => {
             }
         }
 
-        fetchBTC()
-            .catch(err => console.error(err));
+        setTimeout(() => {
+            fetchBTC()
+                .catch(err => console.error(err));
+        }, 3000)
     }, []);
 
     return (
@@ -46,6 +49,14 @@ const UseEffectIII = () => {
                 <span>BTC data fetched succesfully</span>
             }
         </React.Fragment>
+    )
+}
+
+const UseEffectIII = () => {
+    return (
+        <Suspense fallback={<Loading />}>
+            <BTCComponent />
+        </Suspense>
     )
 }
 
