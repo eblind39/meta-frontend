@@ -55,6 +55,8 @@
 |Formik|https://formik.org/|
 |Yup|https://github.com/jquense/yup|
 |React-hook-form|https://github.com/react-hook-form/react-hook-form|
+|React.memo from the official React docs|https://reactjs.org/docs/react-api.html#reactmemo|
+|useMemo from the official React docs|https://reactjs.org/docs/hooks-reference.html#usememo|
 
 ### Create React App and many more...
 ```sh
