@@ -15,8 +15,8 @@ const UseStateObj = () => {
   } 
  
   return ( 
-    <div> 
-      <h1>{greeting.greet}</h1> 
+    <div className="contruncontr-container"> 
+      <h1>{`${greeting.greet} ${greeting.place}`}</h1> 
       <button onClick={updateGreeting}>Update greeting</button> 
     </div> 
   ); 
