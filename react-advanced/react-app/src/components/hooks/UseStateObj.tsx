@@ -12,7 +12,7 @@ const UseStateObj = () => {
     setGreeting(prevState => {
                     return { ...prevState, place: "World-Wide Web" }
                 }); 
-  } 
+  }
  
   return ( 
     <div className="contruncontr-container"> 
