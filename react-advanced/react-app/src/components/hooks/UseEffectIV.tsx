@@ -20,6 +20,7 @@ const UseEffectIV = () => {
             <h1>Data returned</h1>
             <h2>First name: {userData?.results[0].name.first}</h2>
             <h2>Last name: {userData?.results[0].name.last}</h2>
+            <img src={userData?.results[0].picture.large} alt=""></img>
         </div> :
         <h1>Data pending...</h1>
     )

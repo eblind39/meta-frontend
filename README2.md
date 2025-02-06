@@ -61,6 +61,10 @@
 |The read props inside the child component|https://beta.reactjs.org/learn/passing-props-to-a-component#step-2-read-props-inside-the-child-component|
 |useState reference on official React docs website|https://beta.reactjs.org/apis/react/useState#usestate|
 |useEffect reference on official React docs website|https://beta.reactjs.org/apis/react/useEffect#useeffect|
+|Rules of Hooks reading on Reactjs.org|https://reactjs.org/docs/hooks-rules.html|
+|Fetching data with Effects|https://beta.reactjs.org/apis/react/useEffect#fetching-data-with-effects|
+|How to use promises|https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises|
+|async function|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function|
 
 ### Create React App and many more...
 ```sh
