@@ -7,6 +7,7 @@ import UseEffect from "../components/hooks/UseEffect";
 import UseEffectII from "../components/hooks/UseEffectII";
 import UseEffectIII from "../components/hooks/UseEffectIII";
 import UseEffectIV from "../components/hooks/UseEffectIV";
+import UseReducer from "../components/hooks/UseReducer";
 
 const Hooks = () => {
     return (
@@ -19,6 +20,7 @@ const Hooks = () => {
             <UseEffectII />
             <UseEffectIII />
             <UseEffectIV />
+            <UseReducer />
         </React.Fragment>
     )
 }
