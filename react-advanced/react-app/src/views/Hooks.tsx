@@ -6,6 +6,7 @@ import UseMemo from "../components/hooks/UseMemo";
 import UseEffect from "../components/hooks/UseEffect";
 import UseEffectII from "../components/hooks/UseEffectII";
 import UseEffectIII from "../components/hooks/UseEffectIII";
+import UseEffectIV from "../components/hooks/UseEffectIV";
 
 const Hooks = () => {
     return (
@@ -17,6 +18,7 @@ const Hooks = () => {
             <UseEffect chatId={77} />
             <UseEffectII />
             <UseEffectIII />
+            <UseEffectIV />
         </React.Fragment>
     )
 }
