@@ -1,5 +1,10 @@
 import { useReducer } from "react";
 
+/*
+ * Working with useState, it's better to use it with primitive data types, such as strings, numbers, or booleans.
+ * The useReducer hook is best used on more complex data, specifically, arrays or objects.
+ */
+
 interface Revenue {
     money: number
 }
