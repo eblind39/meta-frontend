@@ -9,6 +9,7 @@ import UseEffectIII from "../components/hooks/UseEffectIII";
 import UseEffectIV from "../components/hooks/UseEffectIV";
 import UseReducer from "../components/hooks/UseReducer";
 import UseRef from "../components/hooks/UseRef";
+import CustomHook from "../components/hooks/CustomHook";
 
 const Hooks = () => {
     return (
@@ -23,6 +24,7 @@ const Hooks = () => {
             <UseEffectIV />
             <UseReducer />
             <UseRef />
+            <CustomHook />
         </React.Fragment>
     )
 }
