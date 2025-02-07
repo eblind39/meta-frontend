@@ -29,9 +29,7 @@ const CustomHook = () => {
                     )
                 }
             </h1>
-            <button onClick={getNextDay}>
-            Get next day
-            </button>
+            <button onClick={getNextDay}>Get next day</button>
         </div>
     );
 }

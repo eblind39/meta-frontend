@@ -65,6 +65,9 @@
 |Fetching data with Effects|https://beta.reactjs.org/apis/react/useEffect#fetching-data-with-effects|
 |How to use promises|https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises|
 |async function|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function|
+|useReducer hook reference|https://react.dev/reference/react/useReducer|
+|using the useRef hook|https://react.dev/reference/react/useRef|
+|Reusing Logic with Custom Hooks|https://beta.reactjs.org/learn/reusing-logic-with-custom-hooks|
 
 ### Create React App and many more...
 ```sh
