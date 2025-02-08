@@ -10,6 +10,7 @@ const MainMenu = () => {
           <Link to="/signup">SignUp</Link>
           <Link to="/theme">Theme</Link>
           <Link to='/hooks'>Hooks</Link>
+          <Link to='/jsx'>Jsx</Link>
           <LoggedInUser />
         </menu>
     )

@@ -6,6 +6,7 @@ import Forms from './views/Forms'
 import SignUp from './views/SignUp'
 import Theme from './views/Theme'
 import Hooks from './views/Hooks'
+import Jsx from './views/Jsx'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/signup' element={<SignUp />} />
         <Route path='/theme' element={<Theme />} />
         <Route path='/hooks' element={<Hooks />} />
+        <Route path='/jsx' element={<Jsx />} />
       </Routes>
     </React.Fragment>
   )
