@@ -6,9 +6,9 @@ interface ButtonProps {
 }
 
 const Button = ({ children, backgroundColor }: ButtonProps) => {
-    return <button style={{ backgroundColor }}>
+    return <div style={{ backgroundColor }}>
         { children }
-    </button>
+    </div>
 }
 
 interface AlertProps {
