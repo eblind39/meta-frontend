@@ -4,7 +4,7 @@ import { useState } from "react";
 function LabCloneChildren() {
   const [selected, setSelected] = useState("");
   return (
-    <div className="App">
+    <div className="clone-children contruncontr-container">
       <h2>How did you hear about Little Lemon?</h2>
       <RadioGroup onChange={setSelected} selected={selected}>
         <RadioOption value="social_media">Social Media</RadioOption>
