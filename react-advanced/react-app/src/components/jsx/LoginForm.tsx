@@ -1,6 +1,7 @@
 import React from "react";
 import type { ButtonHTMLAttributes } from 'react';
 
+// spread props
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     typeVariant: "primary" | "secondary" | undefined
     children: React.ReactNode

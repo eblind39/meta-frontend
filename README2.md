@@ -118,3 +118,12 @@ The _React.createElement_ function receives three arguments:
 |Enforcing a specific input format|No|Yes|
 |Several inputs for one piece of data|No|Yes|
 |Dynamic inputs|No|Yes|
+
+
+## JSX - Additional Resources
+
+|Topic|URL|
+|---|---|
+|Chakra-UI|https://chakra-ui.com/|
+|Compound components with hooks|https://kentcdodds.com/blog/compound-components-with-react-hooks|
+|React Fragments|https://reactjs.org/docs/fragments.html|
