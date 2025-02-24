@@ -38,3 +38,31 @@ const EnhancedComponent = connect(selector, actions)(WrappedComponent);
 const HOC = connect(selector, actions);
 const EnhancedComponent = HOC(WrappedComponent);
 */
+
+/*
+    const enhance = compose(
+        // These are both single-argument HOCs
+        withMousePosition,
+        withURLLocation,
+        connect(selector)
+    );
+
+    // Enhance is a HOC
+    const EnhancedComponent = enhance(WrappedComponent);
+*/
+
+// compose(f, g, h) is the same as (...args) => f(g(h(...args)))
+
+/*
+const Component = (props) => {
+    // This is wrong. Never do this
+    const EnhancedComponent = HOC(WrappedComponent);
+    return <EnhancedComponent />;
+};
+
+// This is the correct way
+const EnhancedComponent = HOC(WrappedComponent);
+const Component = (props) => {
+    return <EnhancedComponent />;
+};
+*/

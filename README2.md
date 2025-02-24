@@ -127,3 +127,4 @@ The _React.createElement_ function receives three arguments:
 |Chakra-UI|https://chakra-ui.com/|
 |Compound components with hooks|https://kentcdodds.com/blog/compound-components-with-react-hooks|
 |React Fragments|https://reactjs.org/docs/fragments.html|
+|React.forwardRef API|https://reactjs.org/docs/forwarding-refs.html|
