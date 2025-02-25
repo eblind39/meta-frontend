@@ -4,6 +4,7 @@ import CloneElement from "../components/jsx/CloneElement";
 import LabCloneChildren from "../components/jsx/LabCloneChildren";
 import LoginForm from "../components/jsx/LoginForm";
 import TrackItemPos from "../components/jsx/TrackItemPos";
+import Render from "../components/jsx/Render";
 
 const Jsx = () => {
     return (
@@ -13,6 +14,7 @@ const Jsx = () => {
             <LabCloneChildren />
             <LoginForm />
             <TrackItemPos />
+            <Render />
         </React.Fragment>
     )
 }
