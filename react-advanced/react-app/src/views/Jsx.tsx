@@ -5,6 +5,7 @@ import LabCloneChildren from "../components/jsx/LabCloneChildren";
 import LoginForm from "../components/jsx/LoginForm";
 import TrackItemPos from "../components/jsx/TrackItemPos";
 import Render from "../components/jsx/Render";
+import RenderMousePos from "../components/jsx/RenderMousePos";
 
 const Jsx = () => {
     return (
@@ -15,6 +16,7 @@ const Jsx = () => {
             <LoginForm />
             <TrackItemPos />
             <Render />
+            <RenderMousePos />
         </React.Fragment>
     )
 }
