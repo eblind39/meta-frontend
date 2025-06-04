@@ -11,6 +11,7 @@ const MainMenu = () => {
           <Link to="/theme">Theme</Link>
           <Link to='/hooks'>Hooks</Link>
           <Link to='/jsx'>Jsx</Link>
+          <Link to='/revelo'>Revelo</Link>
           <LoggedInUser />
         </menu>
     )

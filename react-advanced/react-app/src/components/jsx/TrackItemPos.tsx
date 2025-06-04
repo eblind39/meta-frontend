@@ -38,7 +38,7 @@ const PanelMouseLogger = ({ mousePosition }: MouseLoggerProps) => {
     }
 
     return (
-        <div className="basic-tracker">
+        <div className="BasicTracker">
             <p>Mouse position:</p>
             <div className="row">
                 <span>x: {mousePosition.x}</span>

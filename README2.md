@@ -128,3 +128,7 @@ The _React.createElement_ function receives three arguments:
 |Compound components with hooks|https://kentcdodds.com/blog/compound-components-with-react-hooks|
 |React Fragments|https://reactjs.org/docs/fragments.html|
 |React.forwardRef API|https://reactjs.org/docs/forwarding-refs.html|
+|Downshift|https://github.com/downshift-js/downshift|
+|Render props|https://reactjs.org/docs/render-props.html|
+|Higher Order Components|https://reactjs.org/docs/higher-order-components.html|
+|Forwarding Refs|https://reactjs.org/docs/forwarding-refs.html#forwarding-refs-in-higher-order-components|
