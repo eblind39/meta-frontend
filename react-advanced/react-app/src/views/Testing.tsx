@@ -1,7 +1,9 @@
+import TestFirstApproach from "../components/jsx/TestFirstApproach";
+
 const Testing = () => {
     return (
         <div>
-            <h1>Testing</h1>
+            <TestFirstApproach />
         </div>
     );
 }

@@ -8,6 +8,7 @@ import Theme from './views/Theme'
 import Hooks from './views/Hooks'
 import Jsx from './views/Jsx'
 import Revelo from './views/Revelo'
+import Testing from './views/Testing'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='/hooks' element={<Hooks />} />
         <Route path='/jsx' element={<Jsx />} />
         <Route path='/revelo' element={<Revelo />} />
+        <Route path='/test' element={<Testing />} />
       </Routes>
     </React.Fragment>
   )
