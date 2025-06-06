@@ -9,6 +9,7 @@ import Hooks from './views/Hooks'
 import Jsx from './views/Jsx'
 import Revelo from './views/Revelo'
 import Testing from './views/Testing'
+import Feedback from './views/Feedback'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/jsx' element={<Jsx />} />
         <Route path='/revelo' element={<Revelo />} />
         <Route path='/test' element={<Testing />} />
+        <Route path='/feedback' element={<Feedback />} />
       </Routes>
     </React.Fragment>
   )

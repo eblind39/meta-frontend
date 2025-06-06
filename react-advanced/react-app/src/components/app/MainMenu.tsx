@@ -13,6 +13,7 @@ const MainMenu = () => {
           <Link to='/jsx'>Jsx</Link>
           <Link to='/revelo'>Revelo</Link>
           <Link to='/test'>Tests</Link>
+          <Link to='/feedback'>Feedback</Link>
           <LoggedInUser />
         </menu>
     )
