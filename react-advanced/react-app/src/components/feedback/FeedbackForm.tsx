@@ -9,7 +9,7 @@ const FeedbackForm = ({ onSubmit }: Props) => {
     const [score, setScore] = React.useState<string>("10");
     const [comment, setComment] = React.useState<string>("");
 
-    const isDisabled = Number(score) < 5 && comment.length <= 10;
+    const isDisabled = Number(score) < 5 || comment.length <= 10;
 
     const textAreaPlaceholder = isDisabled
         ? "Please provide a comment explaining why the experience was not satisfactory. Minimum lenght is 10 characters."
