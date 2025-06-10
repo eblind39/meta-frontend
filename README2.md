@@ -132,3 +132,7 @@ The _React.createElement_ function receives three arguments:
 |Render props|https://reactjs.org/docs/render-props.html|
 |Higher Order Components|https://reactjs.org/docs/higher-order-components.html|
 |Forwarding Refs|https://reactjs.org/docs/forwarding-refs.html#forwarding-refs-in-higher-order-components|
+|React testing library|https://testing-library.com/docs/react-testing-library/intro/|
+|Jest|https://jestjs.io/docs/getting-started|
+|Continuous delivery|https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment|
+|Practical test pyramid|https://martinfowler.com/articles/practical-test-pyramid.html|
