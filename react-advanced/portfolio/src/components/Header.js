@@ -33,8 +33,7 @@ const socials = [
 ];
 
 const Header = () => {
-  const [position, setPosition] = useState(window.pageYOffset)
-  const boxIdRef = useRef()
+  const headerRef = useRef(null)
 
   const handleClick = (anchor) => () => {
     const id = `${anchor}-section`;
@@ -49,27 +48,33 @@ const Header = () => {
   };
 
   useEffect(()=> {
-      const handleScroll = () => {
-          let moving = window.pageYOffset
-          
-          if (position + moving > position) {
-            setPosition(prevVal => prevVal + moving)
-            boxIdRef.current.style.translateY = -200;
-          } else {
-            setPosition(prevVal => prevVal - moving)
-            boxIdRef.current.style.translateY = 0;
-          }
-      };
+    let prevScrollPos = window.scrollY;
 
-      window.addEventListener("scroll", handleScroll);
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      const headerElement = headerRef.current;
+      if (!headerElement) {
+        return;
+      }
 
-      return(() => {
-          window.removeEventListener("scroll", handleScroll);
-      })
-  })
+      if (prevScrollPos > currentScrollPos) {
+        headerElement.style.transform = "translateY(0)";
+      } else {
+        headerElement.style.transform = "translateY(-200px)";
+      }
+      prevScrollPos = currentScrollPos;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return(() => {
+        window.removeEventListener("scroll", handleScroll);
+    })
+  }, [])
 
   return (
     <Box
+      position="fixed"
       top={0}
       left={0}
       right={0}
@@ -78,7 +83,7 @@ const Header = () => {
       transitionDuration=".3s"
       transitionTimingFunction="ease-in-out"
       backgroundColor="#18181b"
-      ref={boxIdRef}
+      ref={headerRef}
     >
       <Box color="white" maxWidth="1280px" margin="0 auto">
         <HStack
@@ -89,14 +94,15 @@ const Header = () => {
         >
           <nav>
             {/* Add social media links based on the `socials` data */}
-            <HStack spacing={4}>
-              {socials.map((social, index) => (
+            <HStack spacing={8}>
+              {socials.map(({ icon, url }) => (
                 <a
-                  key={index}
-                  href={social.url}
+                  key={url}
+                  href={url}
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <FontAwesomeIcon icon={social.icon} size="2x" />
+                  <FontAwesomeIcon icon={icon} size="2x" key={url} />
                 </a>
               ))} 
             </HStack>
@@ -105,7 +111,7 @@ const Header = () => {
             <HStack spacing={8}>
               {/* Add links to Projects and Contact me section */}
               <a
-                href="/#projects"
+                href="#projects"
                 onClick={handleClick("projects")}
                 style={{ color: "white", textDecoration: "none" }}
               >
