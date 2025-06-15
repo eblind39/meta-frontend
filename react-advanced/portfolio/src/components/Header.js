@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -33,6 +33,9 @@ const socials = [
 ];
 
 const Header = () => {
+  const [position, setPosition] = useState(window.pageYOffset)
+  const boxIdRef = useRef()
+
   const handleClick = (anchor) => () => {
     const id = `${anchor}-section`;
     const element = document.getElementById(id);
@@ -45,9 +48,28 @@ const Header = () => {
     }
   };
 
+  useEffect(()=> {
+      const handleScroll = () => {
+          let moving = window.pageYOffset
+          
+          if (position + moving > position) {
+            setPosition(prevVal => prevVal + moving)
+            boxIdRef.current.style.translateY = -200;
+          } else {
+            setPosition(prevVal => prevVal - moving)
+            boxIdRef.current.style.translateY = 0;
+          }
+      };
+
+      window.addEventListener("scroll", handleScroll);
+
+      return(() => {
+          window.removeEventListener("scroll", handleScroll);
+      })
+  })
+
   return (
     <Box
-      position="fixed"
       top={0}
       left={0}
       right={0}
@@ -56,6 +78,7 @@ const Header = () => {
       transitionDuration=".3s"
       transitionTimingFunction="ease-in-out"
       backgroundColor="#18181b"
+      ref={boxIdRef}
     >
       <Box color="white" maxWidth="1280px" margin="0 auto">
         <HStack
