@@ -55,4 +55,18 @@ _"As an online banking customer, I want to add a payee to my account, so I can t
 |*User research*||
 |UI at its worst, an amusing but infuriating example of UI design .. Worth a look!|https://userinyerface.com/|
 |A description on what Is UI Design|https://xd.adobe.com/ideas/process/ui-design/|
-
+|The 10 Principles of Good Design|https://www.youtube.com/watch?v=4Cxr2h_wE34|
+|Heuristic Evaluation of User Interfaces|https://www.youtube.com/watch?v=6Bw0n6Jvwxk|
+|*Design tips & methods*||
+|Designing for accessibility top tips to get you started|https://www.w3.org/WAI/tips/designing/|
+|Designing for accessibility top tips to get you started|https://www.interaction-design.org/literature/topics/accessibility|
+|Good tips to help Improve any Online Form|https://uxplanet.org/the-18-must-do-principles-in-the-form-design-fe89d0127c92|
+|Usability methods|https://www.usability.gov/how-to-and-tools/methods/usability-evaluation/index.html|
+|Component design and ways of using them|https://wereheavyweight.medium.com/how-were-using-component-based-design-5f9e3176babb|
+|An article on form design and best principles|https://xd.adobe.com/ideas/principles/web-design/best-practices-form-design/|
+|Design systems explained in detail|https://www.nngroup.com/articles/design-systems-101/|
+|Current inspirational design systems|https://uxplanet.org/10-most-popular-design-systems-to-learn-from-in-2022-for-ux-designers-18a24843a860|
+|*User research*||
+|Dieter Ram|https://designmuseum.org/discover-design/all-stories/what-is-good-design-a-quick-look-at-dieter-rams-ten-principles|
+|Ben Schneiderman|https://www.interaction-design.org/literature/article/shneiderman-s-eight-golden-rules-will-help-you-design-better-interfaces|
+|Jakob Nielsen describes his heuristic evaluation method design using ten well-proven general principles for human-computer interaction|https://www.youtube.com/watch?v=6Bw0n6Jvwxk|
