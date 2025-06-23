@@ -3,9 +3,7 @@
 > *User stories:* _As a (type of user), I want (a goal) for (some reason)_
 
 * Type of user: This is the end-user or the user's role in the application software. For example: _"As an online banking customer."_
-
 * A goal: This is the action taken by the user on the application software. For example: _"I want to add a payee to my account."_
-
 * Some reason: - The outcome or desired value the user expects from the action performed. For example: _"so that I can transfer money to the payee."_
 
 *The user story is:*
@@ -70,3 +68,14 @@ _"As an online banking customer, I want to add a payee to my account, so I can t
 |Dieter Ram|https://designmuseum.org/discover-design/all-stories/what-is-good-design-a-quick-look-at-dieter-rams-ten-principles|
 |Ben Schneiderman|https://www.interaction-design.org/literature/article/shneiderman-s-eight-golden-rules-will-help-you-design-better-interfaces|
 |Jakob Nielsen describes his heuristic evaluation method design using ten well-proven general principles for human-computer interaction|https://www.youtube.com/watch?v=6Bw0n6Jvwxk|
+|*Similarities and differences between UX and UI design*||
+|An article about What Is Empathy and Why Does It Matter in Design Thinking?||https://www.interaction-design.org/literature/article/design-thinking-getting-started-with-empathy
+|Another article on the similarities and differences between UX and UI design?|https://xd.adobe.com/ideas/process/ui-design/ui-vs-ux-design-understanding-similarities-and-differences/|
+|*User research*||
+|Although the course doesn’t cover user research, here are some basic methodologies,|https://www.usability.gov/what-and-why/user-research.html#:~:text=User%20research%20focuses%20on%20understanding,of%20design%20on%20an%20audience.%E2%80%9D|
+|*Personas*||
+|A practical guide to relating scenarios and personas|https://www.nngroup.com/articles/scenario-mapping-personas/|
+|A little bit about personas |https://www.usability.gov/how-to-and-tools/methods/personas.html|
+|*Scenarios*||
+|A concise summary card on user scenarios complete with instructions|https://methods.18f.gov/decide/user-scenarios/|
+|Book: The Persona Lifecycle: Keeping People in Mind Throughout Product Design (John Pruitt, Tamara Adlin)||
