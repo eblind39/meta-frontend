@@ -79,3 +79,10 @@ _"As an online banking customer, I want to add a payee to my account, so I can t
 |*Scenarios*||
 |A concise summary card on user scenarios complete with instructions|https://methods.18f.gov/decide/user-scenarios/|
 |Book: The Persona Lifecycle: Keeping People in Mind Throughout Product Design (John Pruitt, Tamara Adlin)||
+|*Design principles*||
+|An article on form design and best principles|https://xd.adobe.com/ideas/principles/web-design/best-practices-form-design/|
+|Design systems explained in detail|https://www.nngroup.com/articles/design-systems-101/|
+|Current inspirational design systems|https://uxplanet.org/10-most-popular-design-systems-to-learn-from-in-2022-for-ux-designers-18a24843a860|
+|*Design tips*||
+|Good tips to help improve any online form|https://uxplanet.org/the-18-must-do-principles-in-the-form-design-fe89d0127c92|
+|Component design and ways of using them|https://wereheavyweight.medium.com/how-were-using-component-based-design-5f9e3176babb|
