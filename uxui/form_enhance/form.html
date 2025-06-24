@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Enhancement Lab</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <h1>Sample Form</h1>
+
+        <!-- START: Form container -->
+        <form action="#" method="POST">
+
+            <!-- START: Name field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <!-- COMMENT: Add a placeholder for better guidance. -->
+            <!-- COMMENT: Use the 'required' attribute to make this field mandatory. -->
+
+            <!-- START: Email field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            <!-- COMMENT: Add a placeholder to help users understand the input format. -->
+            <!-- COMMENT: Validation messages can be implemented using JavaScript. -->
+
+            <!-- START: Phone Number field -->
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            <!-- COMMENT: Use the 'tel' input type to accept only valid phone numbers. -->
+            <!-- COMMENT: Placeholder provides guidance on the input format. -->
+
+            <!-- START: Address field -->
+            <label for="address">Shipping Address:</label>
+            <input type="text" id="address" name="address" placeholder="Enter your address" required>
+            <!-- COMMENT: Ensure users provide their shipping address with a placeholder for clarity. -->
+            <!-- COMMENT: Use the 'required' attribute to ensure this field is not left empty. -->
+
+            <!-- START: Password field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <!-- COMMENT: Passwords should be entered securely with 'password' input type. -->
+            <!-- COMMENT: Placeholder added for user guidance and 'required' ensures mandatory input. -->
+
+            <!-- START: Submit button -->
+            <button type="submit">Submit</button>
+            <!-- COMMENT: Button functionality is to submit the form. -->
+            <!-- COMMENT: Style the button in the CSS file for better presentation. -->
+
+        </form>
+        <!-- END: Form container -->
+
+    </body>
+</html>
