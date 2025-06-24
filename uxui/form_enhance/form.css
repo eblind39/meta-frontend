@@ -2,6 +2,17 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: #081a2e;
+}
+
+h1 {
+    color:#ccc;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.4em;;
+    color: #a3a3a3;
 }
 
 /* Style the form container */
@@ -17,16 +28,19 @@ form {
 /* Style for form labels */
 label {
     display: block;
-    margin: 10px 0 5px;
+    margin: 8px 0 5px;
     font-weight: bold;
     /* COMMENT: Adjust font size and spacing if needed. */
+    font-size: 1.2em;;
+    color: #1c2735;
 }
 
 /* Style for input fields */
 input[type="text"],
 input[type="email"],
-input[type="password"] {
-    width: 100%;
+input[type="password"],
+input[type="tel"] {
+    width: 95%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -34,21 +48,32 @@ input[type="password"] {
     /* COMMENT: Add focus styles to improve accessibility. */
 }
 
+input:focus {
+  outline: 3px solid orange;
+}
+
 /* Style for the submit button */
 button {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     background-color: #007BFF;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin: 15px 0;
+    font-size: 1.1em;
     /* COMMENT: Add hover effects for interactivity. */
 }
 
 /* Hover effect for the button */
 button:hover {
     background-color: #0056b3;
+}
+
+.required {
+    color: red;
+    font-weight: bold;
 }
 
 /* Mobile responsiveness */
