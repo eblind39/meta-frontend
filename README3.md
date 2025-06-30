@@ -91,3 +91,16 @@ _"As an online banking customer, I want to add a payee to my account, so I can t
 |Principles of Icon Design|https://uxdesign.cc/7-principles-of-icon-design-e7187539e4a2|
 |Usability Evaluation|https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/usability-evaluation|
 |Evaluating interactive design|https://gayan1999malinda.medium.com/interaction-design-evaluation-methods-df8132cedbf9|
+|*Typography elements*||
+|Baseline|The point at which the text line rests|
+|Cap height|Refers to the height of the capital letters|
+|X-Height|Also known as corpus size, is the distance between the lowercase "x baseline" and meanline|
+|Ascenders and descenders|It's a part of a letter that extends above the x-height or cap height, such as the stem of a lowercase b or d|
+|Weight|The overall thickness of a typeface's stroke|
+|Tracking|It's the spacing between all a font's characters|
+|Kerning|The space that exists between two specific letters|
+|Leading|The space between two lines of text|
+|White space|It refers to the space between blocks of text|
+|Stroke|A straight or curved line forms the main body of a letter|
+|Serif|A stroke or foot-like element is connected to the end of the main strokes of some typefaces|
+|Sans serif|A typeface that does not have any strokes or extra elements at the bottom of a letter|
