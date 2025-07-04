@@ -104,3 +104,9 @@ _"As an online banking customer, I want to add a payee to my account, so I can t
 |Stroke|A straight or curved line forms the main body of a letter|
 |Serif|A stroke or foot-like element is connected to the end of the main strokes of some typefaces|
 |Sans serif|A typeface that does not have any strokes or extra elements at the bottom of a letter|
+|*Types of Grids*||
+|Block grids|The simplest grid structure, a large rectangular area taking up most of the space inside a format|
+|Column grid: divided-yet-equal|Composed of several columns, primarily used to organize multiple elements into columns|
+|Modular grid: perfect symmetry|Presents multiple items simultaneously for easy access when multiple elements are organized in web design|
+|Hierarchical grids|Described as "freestyle," whose elements are placed "spontaneously" among the grid's columns and rows|
+|Baseline grids|Baseline grids are used to set the leading from one line of text to the next for consistency|
