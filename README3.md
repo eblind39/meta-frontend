@@ -110,3 +110,10 @@ _"As an online banking customer, I want to add a payee to my account, so I can t
 |Modular grid: perfect symmetry|Presents multiple items simultaneously for easy access when multiple elements are organized in web design|
 |Hierarchical grids|Described as "freestyle," whose elements are placed "spontaneously" among the grid's columns and rows|
 |Baseline grids|Baseline grids are used to set the leading from one line of text to the next for consistency|
+|*Grids and constraints*||
+|Video on grids and constraints|https://www.youtube.com/watch?v=BsR9dKfkNuA|
+|How to use grids to improve visual hierarchy|https://uxplanet.org/how-i-use-grids-to-improve-visual-hierarchy-18af5214e8a1|
+|*Typography*||
+|10 Principles for Typography in UI Design: Typography in Design Systems|https://uxdesign.cc/10-principles-for-typography-usage-in-ui-design-a8f038f43ffd|
+|Typography and best practice|https://medium.com/eightshapes-llc/typography-in-design-systems-6ed771432f1e|
+|_Book_|Robert Bringhurst - "The Elements of Typographic Style"|
