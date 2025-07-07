@@ -118,6 +118,13 @@ _"As an online banking customer, I want to add a payee to my account, so I can t
 |Typography and best practice|https://medium.com/eightshapes-llc/typography-in-design-systems-6ed771432f1e|
 |_Book_|Robert Bringhurst - "The Elements of Typographic Style"|
 |Wireframe exercise|https://www.figma.com/design/6of6xWHOGStM8fgixqMg1K/CourseraUXUI?node-id=0-1&p=f&t=t7bwSssfirEfi2zV-0|
+|*Wireframing*||
+|What is wireframing?|https://www.interaction-design.org/literature/topics/wireframing|
+|*Usability testing*||
+|Usability testing methodology|https://www.nngroup.com/articles/usability-testing-101/|
+|How to write a usability test top tips|https://usabilitygeek.com/tips-for-writing-usability-test-script/|
+|Usability testing methods|https://www.usability.gov/how-to-and-tools/methods/index.html|
+|How to plan a usability test|https://www.usability.gov/how-to-and-tools/methods/planning-usability-testing.html|
 
 ### The Rapid Prototyping Cycle
 1. The first step is to create what you are testing
