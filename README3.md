@@ -117,6 +117,7 @@ _"As an online banking customer, I want to add a payee to my account, so I can t
 |10 Principles for Typography in UI Design: Typography in Design Systems|https://uxdesign.cc/10-principles-for-typography-usage-in-ui-design-a8f038f43ffd|
 |Typography and best practice|https://medium.com/eightshapes-llc/typography-in-design-systems-6ed771432f1e|
 |_Book_|Robert Bringhurst - "The Elements of Typographic Style"|
+|Wireframe exercise|https://www.figma.com/design/6of6xWHOGStM8fgixqMg1K/CourseraUXUI?node-id=0-1&p=f&t=t7bwSssfirEfi2zV-0|
 
 ### The Rapid Prototyping Cycle
 1. The first step is to create what you are testing
