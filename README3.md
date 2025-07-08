@@ -125,6 +125,9 @@ _"As an online banking customer, I want to add a payee to my account, so I can t
 |How to write a usability test top tips|https://usabilitygeek.com/tips-for-writing-usability-test-script/|
 |Usability testing methods|https://www.usability.gov/how-to-and-tools/methods/index.html|
 |How to plan a usability test|https://www.usability.gov/how-to-and-tools/methods/planning-usability-testing.html|
+|*Design Principles*||
+|eye-tracking study|https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content-discovered/|
+|The Gutenberg Diagram|https://3.7designs.co/blog/2009/01/03/the-gutenburg-diagram-in-design/|
 
 ### The Rapid Prototyping Cycle
 1. The first step is to create what you are testing
