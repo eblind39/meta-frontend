@@ -128,6 +128,16 @@ _"As an online banking customer, I want to add a payee to my account, so I can t
 |*Design Principles*||
 |eye-tracking study|https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content-discovered/|
 |The Gutenberg Diagram|https://3.7designs.co/blog/2009/01/03/the-gutenburg-diagram-in-design/|
+|*Prototyping*||
+|High-Fidelity & Low-Fidelity Prototyping|https://www.nngroup.com/articles/ux-prototype-hi-lo-fidelity/|
+|*UI components*||
+|Creating a UI Component Design System|https://medium.muz.li/creating-a-ui-component-design-system-step-by-step-guide-5c18b5a2f529?gi=a1e51a702983|
+|The architecture of a component|https://uxdesign.cc/the-architecture-of-a-component-526e88f9d93e|
+|*Mood boards*||
+|What are mood boards and How it is Important in UX Design World?|https://medium.com/successivetech/what-are-mood-boards-and-how-it-is-important-in-ux-design-world-d4afbdbc2f17|
+|How to make a mood board step by step|https://www.masterclass.com/articles/how-to-make-a-moodboard-step-by-step-guide|
+|*User interface elements*||
+|User interface elements|https://www.usability.gov/how-to-and-tools/methods/user-interface-elements.html|
 
 ### The Rapid Prototyping Cycle
 1. The first step is to create what you are testing
