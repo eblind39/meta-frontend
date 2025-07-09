@@ -153,8 +153,10 @@ _"As an online banking customer, I want to add a payee to my account, so I can t
 |IBM did incredible work on the Design language|https://www.ibm.com/design/language/|
 |*Form design*||
 |Nathan Curtis: components and design systems|https://medium.com/@nathanacurtis|
+|Micro-interactions - Dan Saffer|https://www.amazon.com/Microinteractions-Full-Color-Designing-Details/dp/1491945923|
+|Micro-interactions: Designing with Details by Dan Saffer|https://fireart.studio/blog/microinteractions/|
 
 ### The Rapid Prototyping Cycle
 1. The first step is to create what you are testing
 2. Test it on users, stakeholders, or your team and make changes based on their feedback
-3. Repeat the procedure 
+3. Repeat the procedure
