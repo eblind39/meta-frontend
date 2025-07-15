@@ -156,6 +156,12 @@ _"As an online banking customer, I want to add a payee to my account, so I can t
 |Micro-interactions - Dan Saffer|https://www.amazon.com/Microinteractions-Full-Color-Designing-Details/dp/1491945923|
 |Micro-interactions: Designing with Details by Dan Saffer|https://fireart.studio/blog/microinteractions/|
 |Figma assesment|https://www.figma.com/design/Vw3OjzajBsOc7AYxz0ozdf/canvas?node-id=0-1&p=f&t=O8XuWHH9MhmzpSqx-0|
+|*Prototyping*||
+|What is prototyping?|https://www.interaction-design.org/literature/topics/prototyping|
+|Types of Prototyping|https://www.nngroup.com/articles/microinteractions/|
+|*Micro-animations with Figma tutorial*||
+|Micro-Animations with Figma Tutorial|https://www.youtube.com/watch?v=0YIovQXnwBY|
+|How to test your prototype and gather feedback|https://www.interaction-design.org/literature/article/test-your-prototypes-how-to-gather-feedback-and-maximise-learning|
 
 ### The Rapid Prototyping Cycle
 1. The first step is to create what you are testing
