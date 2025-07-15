@@ -155,6 +155,7 @@ _"As an online banking customer, I want to add a payee to my account, so I can t
 |Nathan Curtis: components and design systems|https://medium.com/@nathanacurtis|
 |Micro-interactions - Dan Saffer|https://www.amazon.com/Microinteractions-Full-Color-Designing-Details/dp/1491945923|
 |Micro-interactions: Designing with Details by Dan Saffer|https://fireart.studio/blog/microinteractions/|
+|Figma assesment|https://www.figma.com/design/Vw3OjzajBsOc7AYxz0ozdf/canvas?node-id=0-1&p=f&t=O8XuWHH9MhmzpSqx-0|
 
 ### The Rapid Prototyping Cycle
 1. The first step is to create what you are testing
