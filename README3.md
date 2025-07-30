@@ -175,3 +175,12 @@ _"As an online banking customer, I want to add a payee to my account, so I can t
 * Create an interactive, high-fidelity visual design Prototype in Figma for the reserve-a-table feature of the Little Lemon website, considering all the best practice design principles learned within the course. 
 * Include at least two interactive components such as the button and radio buttons already created in a previous exercise. Link the pages together, starting from the reserve table button on the home screen.
 * Link at least two screens together.
+
+*Solution*
+|Topic|URL|
+|---|---|
+|1. A text description of the problem you are solving|Design and prototype the reserve a table feature for the mobile version of the Little Lemon restaurant website|
+|2. A link to your persona in|https://docs.google.com/document/d/1pBfitDWSsjmUXj2MX1OAiikNNQN6KR8F/edit?usp=sharing&ouid=112948331106274142003&rtpof=true&sd=true|
+|3. A link to your journey map in Figma|https://www.figma.com/design/yobOIOm7pyy2WyR1O1Y7Xh/UX-UI-Journey-Map---egutierrez?node-id=0-1&t=xwzIQtioH8QP9AK2-1|
+|4. A link to your wireframes in Figma|(Design) https://www.figma.com/design/olEjS6CdOA5oVPXZWoz8Vc/Little-Lemon-Wireframe---egutierrez?node-id=0-1 - (Presentation) https://www.figma.com/proto/olEjS6CdOA5oVPXZWoz8Vc/Little-Lemon-Wireframe---egutierrez?node-id=1-36&t=qIzyCK8mt8Nm9M4O-1&starting-point-node-id=1%3A36|
+|5. A link to your prototype in Figma|(Design) https://www.figma.com/design/PMz4AYL30ViVgJok9MnCTq/Little-Lemon-Prototype---egutierrez?node-id=0-1&t=N1HBiPRehi8fkCAN-1 - (Presentation) https://www.figma.com/proto/PMz4AYL30ViVgJok9MnCTq/Little-Lemon-Prototype---egutierrez?node-id=0-1&t=N1HBiPRehi8fkCAN-1|
